@@ -10,15 +10,24 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
+
 SITEURL = 'https://blog.mattlebrun.com'
 RELATIVE_URLS = False
-
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
-GOOGLE_ANALYTICS = "UA-9679489-4"
+# Link Settings
+LINKS = (
+    ('Home', SITEURL),
+    ('Archives', '{}/archives.html'.format(SITEURL)),
+    ('About', 'https://mattlebrun.com'),
+)
+
+
+# Feed Settings
+FEED_ALL_ATOM = 'feeds/blog.mattlebrun.com.all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/blog.mattlebrun.com.%s.atom.xml'
+
+
+# Custom Template Settings
+GOOGLE_ANALYTICS = 'UA-9679489-4'
