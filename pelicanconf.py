@@ -5,7 +5,7 @@ from datetime import datetime
 
 AUTHOR = 'Matt Lebrun'
 SITENAME = 'Matt Lebrun'
-SITESUBTITLE = 'in between code, coffee, and peanut butter. '
+SITESUBTITLE = 'in between code, coffee, and peanut butter.'
 SITEURL = 'http://localhost:8000'
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
