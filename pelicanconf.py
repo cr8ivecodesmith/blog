@@ -101,6 +101,10 @@ DEFAULT_METADATA = {
 }
 
 
+# Theme Settings
+THEME = 'zenmatt'
+
+
 # Custom Template Settings
 COPYRIGHT_TEXT = '&copy; 2017 Matt Lebrun'
 TWITTER_USERNAME = 'cr8ivecodesmith'
