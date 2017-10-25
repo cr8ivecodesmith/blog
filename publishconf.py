@@ -19,6 +19,7 @@ DELETE_OUTPUT_DIRECTORY = True
 # Feed Settings
 FEED_ALL_ATOM = 'feeds/blog.mattlebrun.com.all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/blog.mattlebrun.com.%s.atom.xml'
+TAG_FEED_ATOM = 'feeds/blog.mattlebrun.com.%s.atom.xml'
 
 
 # Custom Template Settings
