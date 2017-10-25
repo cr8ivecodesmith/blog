@@ -36,3 +36,12 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+.main-header, .main-header a {
+    font-size: 1.3em;
+    color: #333!important;
+}
+
+.archive-link, .archive-link a {
+    color: #333!important;
+}
