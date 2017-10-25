@@ -16,14 +16,6 @@ RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True
 
 
-# Link Settings
-LINKS = (
-    ('Home', SITEURL),
-    ('Archives', '{}/archives.html'.format(SITEURL)),
-    ('About', 'https://mattlebrun.com'),
-)
-
-
 # Feed Settings
 FEED_ALL_ATOM = 'feeds/blog.mattlebrun.com.all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/blog.mattlebrun.com.%s.atom.xml'

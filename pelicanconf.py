@@ -81,14 +81,12 @@ AUTHOR_FEED_RSS = None
 
 # Link Settings
 LINKS = (
-    ('Home', SITEURL),
-    ('Archives', '{}/archives.html'.format(SITEURL)),
-    ('About', 'https://mattlebrun.com'),
+    ('about', 'https://mattlebrun.com'),
 )
 
 SOCIAL = (
-    ('Github', 'https://github.com/cr8ivecodesmith'),
-    ('Twitter', 'https://twitter.com/cr8ivecodesmith'),
+    ('github', 'https://github.com/cr8ivecodesmith'),
+    ('twitter', 'https://twitter.com/cr8ivecodesmith'),
 )
 
 
