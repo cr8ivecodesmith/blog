@@ -4,17 +4,17 @@ from __future__ import unicode_literals
 from datetime import datetime
 
 AUTHOR = 'Matt Lebrun'
-SITENAME = 'Matt Lebrun'
+SITENAME = 'matt lebrun'
 SITESUBTITLE = 'in between code, coffee, and peanut butter.'
 SITEURL = 'http://localhost:8000'
-DISPLAY_PAGES_ON_MENU = False
-DISPLAY_CATEGORIES_ON_MENU = False
-SUMMARY_MAX_LENGTH = (25)
-DEFAULT_PAGINATION = 5
 
 TIMEZONE = 'Asia/Manila'
 DEFAULT_LANG = 'en'
-DEFAULT_PAGINATION = 5
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+DEFAULT_PAGINATION = False
+
 RELATIVE_URLS = True
 
 
@@ -36,7 +36,8 @@ PAGE_LANG_URL = 'page/{slug}-{lang}.html'
 PAGE_LANG_SAVE_AS = 'page/{slug}-{lang}.html'
 
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}.html'
-MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}.html'
+MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%B}.html'
+# DAY_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%B}/{date:%d}.html'
 
 
 # Path Settings
@@ -106,6 +107,6 @@ THEME = 'zenmatt'
 
 
 # Custom Template Settings
-COPYRIGHT_TEXT = '&copy; 2017 Matt Lebrun'
-TWITTER_USERNAME = 'cr8ivecodesmith'
+COPYRIGHT_YEAR = '2017'
+COPYLEFT = True
 GOOGLE_ANALYTICS = None
