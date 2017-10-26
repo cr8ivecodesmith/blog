@@ -25,19 +25,24 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_LANG_URL = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
 ARTICLE_LANG_SAVE_AS = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
 
-DRAFT_URL = 'draft/{slug}.html'
-DRAFT_SAVE_AS = 'draft/{slug}.html'
-DRAFT_LANG_URL = 'draft/{slug}-{lang}.html'
-DRAFT_LANG_SAVE_AS = 'draft/{slug}-{lang}.html'
-
 PAGE_URL = 'page/{slug}.html'
 PAGE_SAVE_AS = 'page/{slug}.html'
 PAGE_LANG_URL = 'page/{slug}-{lang}.html'
 PAGE_LANG_SAVE_AS = 'page/{slug}-{lang}.html'
 
+DRAFT_URL = ''
+DRAFT_SAVE_AS = ''
+DRAFT_LANG_URL = ''
+DRAFT_LANG_SAVE_AS = ''
+
+AUTHOR_URL = ''
+AUTHOR_SAVE_AS = ''
+
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}.html'
-MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%B}.html'
+# MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%B}.html'
+MONTH_ARCHIVE_SAVE_AS = ''
 # DAY_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%B}/{date:%d}.html'
+DAY_ARCHIVE_SAVE_AS = ''
 
 
 # Path Settings
@@ -73,10 +78,18 @@ IGNORE_FILES = [
 
 # Feed Settings
 FEED_ALL_ATOM = None
+FEED_ALL_RSS = None
 CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_RSS = None
 TAG_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+TAG_FEED_RSS = None
+
+FEED_ATOM = None
+FEED_RSS = None
 AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+TRANSLATION_FEED_ATOM = None
+TRANSLATION_FEED_RSS = None
 
 
 # Link Settings
