@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2017-10-26T13:03:00+08:00</updated><entry><title>blog refresh 2017</title><link href="https://blog.mattlebrun.com/2017/10/blog-refresh-2017.html" rel="alternate"></link><published>2017-10-26T13:03:00+08:00</published><updated>2017-10-26T13:03:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2017-10-26:/2017/10/blog-refresh-2017.html</id><summary type="html">&lt;p&gt;Starting over this blog has been one of this things I've been itching to do
-but never got to do because &lt;code&gt;#life-happens&lt;/code&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2017-10-26T13:03:00+08:00</updated><entry><title>blog refresh 2017</title><link href="https://blog.mattlebrun.com/2017/10/blog-refresh-2017.html" rel="alternate"></link><published>2017-10-26T13:03:00+08:00</published><updated>2017-10-26T13:03:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2017-10-26:/2017/10/blog-refresh-2017.html</id><summary type="html">&lt;p&gt;Starting over this blog has been one of those things I've been itching to do
+but never got to because &lt;code&gt;#life-happens&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;However I am currently in between moving to a new job and a new home, and
-finally having the a quiet time to sit down and write this …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Starting over this blog has been one of this things I've been itching to do
-but never got to do because &lt;code&gt;#life-happens&lt;/code&gt;.&lt;/p&gt;
+finally having a quiet time to sit down and write as I enjoy …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Starting over this blog has been one of those things I've been itching to do
+but never got to because &lt;code&gt;#life-happens&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;However I am currently in between moving to a new job and a new home, and
-finally having the a quiet time to sit down and write this as I enjoy a cup of
+finally having a quiet time to sit down and write as I enjoy a cup of
 coffee... yay!&lt;/p&gt;
-&lt;p&gt;Some of the things on my plate that I am planning to write about:&lt;/p&gt;
+&lt;p&gt;Some of the things I will be writing about:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;hard+soft skills for my &lt;a href="https://totalrewardssoftware.com/"&gt;new job&lt;/a&gt; as lead developer&lt;/li&gt;
-&lt;li&gt;learning/teaching methods&lt;/li&gt;
+&lt;li&gt;improving my learning/teaching methods&lt;/li&gt;
 &lt;li&gt;calisthenics and health hacks&lt;/li&gt;
 &lt;li&gt;local and abroad travels&lt;/li&gt;
 &lt;li&gt;thoughts and philosophies about my personal and professional life&lt;/li&gt;
 &lt;li&gt;personal projects and curious experiments&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Now that I've updated the theme on my blog during my downtime this week, I'm
-excited to get to writing more frequently-ish!&lt;/p&gt;
+&lt;p&gt;Now that I've updated the theme on my blog during my downtime this week and
+I've settled in with the perfect title
+-- &lt;em&gt;in between code, coffee, and peanut butter&lt;/em&gt;.
+I'm excited to get to writing more frequently-ish!&lt;/p&gt;
 &lt;p&gt;If you're interested with the theme I used, checkout &lt;a href="https://github.com/cr8ivecodesmith/zenmatt"&gt;zenmatt&lt;/a&gt;. It's
 inspired by the look and feel of &lt;a href="http://mnmlist.com/"&gt;mnmlist.com&lt;/a&gt;.
 Contributions are welcome!&lt;/p&gt;</content></entry><entry><title>getting indefinite input feed in hackerrank</title><link href="https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html" rel="alternate"></link><published>2016-10-25T16:04:00+08:00</published><updated>2016-10-25T16:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</id><summary type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
