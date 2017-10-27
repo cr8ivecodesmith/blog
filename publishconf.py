@@ -15,13 +15,6 @@ SITEURL = 'https://blog.mattlebrun.com'
 RELATIVE_URLS = False
 DELETE_OUTPUT_DIRECTORY = True
 
-# URL Settings
-DRAFT_URL = ''
-DRAFT_SAVE_AS = ''
-DRAFT_LANG_URL = ''
-DRAFT_LANG_SAVE_AS = ''
-
-
 # Feed Settings
 FEED_ALL_ATOM = 'feeds/blog.mattlebrun.com.all.atom.xml'
 FEED_ALL_RSS = 'feeds/blog.mattlebrun.com.all.rss.xml'
@@ -31,5 +24,5 @@ TAG_FEED_ATOM = 'feeds/blog.mattlebrun.com.%s.atom.xml'
 TAG_FEED_RSS = 'feeds/blog.mattlebrun.com.%s.rss.xml'
 
 
-# Custom Template Settings
+# Theme Settings
 GOOGLE_ANALYTICS = 'UA-9679489-4'

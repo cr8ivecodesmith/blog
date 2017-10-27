@@ -17,7 +17,6 @@ DEFAULT_PAGINATION = False
 
 RELATIVE_URLS = True
 
-
 # URL Settings
 # See: http://docs.getpelican.com/en/stable/settings.html#url-settings
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
@@ -115,9 +114,7 @@ DEFAULT_METADATA = {
 
 # Theme Settings
 THEME = 'zenmatt'
-
-
-# Custom Template Settings
+# PYGMENTS_STYLE = 'default'
 COPYRIGHT_YEAR = '2017'
 COPYLEFT = True
-GOOGLE_ANALYTICS = None
+# GOOGLE_ANALYTICS = None
