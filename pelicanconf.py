@@ -99,6 +99,9 @@ LINKS = (
 SOCIAL = (
     ('github', 'https://github.com/cr8ivecodesmith'),
     ('twitter', 'https://twitter.com/cr8ivecodesmith'),
+    ('facebook', 'https://www.facebook.com/cr8ivecodesmith'),
+    ('instagram', 'https://instagram.com/cr8ivecodesmith'),
+    ('linkedin', 'https://ph.linkedin.com/in/cr8ivecodesmith'),
 )
 
 
