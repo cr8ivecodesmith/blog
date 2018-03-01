@@ -7,6 +7,7 @@ AUTHOR = 'Matt Lebrun'
 SITENAME = 'matt lebrun'
 SITESUBTITLE = 'in between code, coffee, and peanut butter.'
 SITEURL = 'http://localhost:8000'
+SUMMARY_MAX_LENGTH = 25
 
 TIMEZONE = 'Asia/Manila'
 DEFAULT_LANG = 'en'
