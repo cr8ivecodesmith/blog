@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun - code</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.code.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2016-10-25T16:04:00+08:00</updated><entry><title>getting indefinite input feed in hackerrank</title><link href="https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html" rel="alternate"></link><published>2016-10-25T16:04:00+08:00</published><updated>2016-10-25T16:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</id><summary type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
-0 1 0 0 0 0
-1 1 1 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0 …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
 0 1 0 0 0 0
 1 1 1 0 0 0
@@ -37,10 +33,7 @@
 
 
 &lt;p&gt;From my observation, it seems the input is coming from a file and its being streamed to &lt;code&gt;STDIN&lt;/code&gt; one line at a time.&lt;/p&gt;</content><category term="python"></category></entry><entry><title>use different git ssh key per project</title><link href="https://blog.mattlebrun.com/2016/09/use-different-git-ssh-key-per-project.html" rel="alternate"></link><published>2016-09-14T16:47:00+08:00</published><updated>2016-09-14T16:47:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-09-14:/2016/09/use-different-git-ssh-key-per-project.html</id><summary type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
-i.e. you use different keys for deployment, personal, company A, company B, etc.&lt;/p&gt;
-&lt;p&gt;Then you probably have wondered how to tell git which key to use to manage the
-repo.&lt;/p&gt;
-&lt;p&gt;You could use the &lt;a href="https://www.git-scm.com/docs/git-remote-ext"&gt;git-remote-ext …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
+i.e. you use different keys for deployment, personal, company A …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
 i.e. you use different keys for deployment, personal, company A, company B, etc.&lt;/p&gt;
 &lt;p&gt;Then you probably have wondered how to tell git which key to use to manage the
 repo.&lt;/p&gt;
@@ -66,11 +59,7 @@ origin ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git &lt;span cl
 $ git fetch
 &lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>the way of the pelican and the order of silly walks</title><link href="https://blog.mattlebrun.com/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html" rel="alternate"></link><published>2013-05-25T18:00:00+08:00</published><updated>2013-05-25T18:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2013-05-25:/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html</id><summary type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
 internets. He talked about tales of discoveries and adventures, of code and
-sorcery, of... &lt;em&gt;well you get the point&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Let me tell you his story.&lt;/p&gt;
-&lt;div class="section" id="the-art-of-blogging"&gt;
-&lt;h2&gt;the art of blogging&lt;/h2&gt;
-&lt;p&gt;For many months he poured all of his energy …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
+sorcery …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
 internets. He talked about tales of discoveries and adventures, of code and
 sorcery, of... &lt;em&gt;well you get the point&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Let me tell you his story.&lt;/p&gt;

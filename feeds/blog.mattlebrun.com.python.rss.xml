@@ -1,7 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>matt lebrun - python</title><link>https://blog.mattlebrun.com/</link><description>in between code, coffee, and peanut butter.</description><lastBuildDate>Tue, 25 Oct 2016 16:04:00 +0800</lastBuildDate><item><title>getting indefinite input feed in hackerrank</title><link>https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html</link><description>&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
-0 1 0 0 0 0
-1 1 1 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0 …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Lebrun</dc:creator><pubDate>Tue, 25 Oct 2016 16:04:00 +0800</pubDate><guid isPermaLink="false">tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</guid><category>python</category></item></channel></rss>
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Lebrun</dc:creator><pubDate>Tue, 25 Oct 2016 16:04:00 +0800</pubDate><guid isPermaLink="false">tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</guid><category>python</category></item></channel></rss>

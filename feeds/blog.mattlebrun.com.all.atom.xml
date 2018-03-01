@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2018-03-01T10:36:00+08:00</updated><entry><title>technology as a path to heaven</title><link href="https://blog.mattlebrun.com/2018/03/technology-as-a-path-to-heaven.html" rel="alternate"></link><published>2018-03-01T10:36:00+08:00</published><updated>2018-03-01T10:36:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2018-03-01:/2018/03/technology-as-a-path-to-heaven.html</id><summary type="html">&lt;p&gt;Think of a promised place where there is no pain, hunger, sickness, and
 suffering. Where life is abundant and happiness is everlasting.
-It could be a utopian place, or state of mind or being.&lt;/p&gt;
-&lt;p&gt;Imagine having the ability to create this world or state ourselves and making
-it accessible to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Think of a promised place where there is no pain, hunger, sickness, and
+It could be …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Think of a promised place where there is no pain, hunger, sickness, and
 suffering. Where life is abundant and happiness is everlasting.
 It could be a utopian place, or state of mind or being.&lt;/p&gt;
 &lt;p&gt;Imagine having the ability to create this world or state ourselves and making
@@ -18,8 +16,7 @@ a particular &lt;a href="https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_n
 Technology will make this accessible to everyone and allow us to unlock our
 full potential.&lt;/p&gt;</content><category term="technology"></category><category term="soul"></category><category term="future"></category></entry><entry><title>blog refresh 2017</title><link href="https://blog.mattlebrun.com/2017/10/blog-refresh-2017.html" rel="alternate"></link><published>2017-10-26T13:03:00+08:00</published><updated>2017-10-26T13:03:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2017-10-26:/2017/10/blog-refresh-2017.html</id><summary type="html">&lt;p&gt;Starting over this blog has been one of those things I've been itching to do
 but never got to because &lt;code&gt;#life-happens&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;However I am currently in between moving to a new job and a new home, and
-finally having a quiet time to sit down and write as I enjoy …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Starting over this blog has been one of those things I've been itching to do
+&lt;p&gt;However I am currently …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Starting over this blog has been one of those things I've been itching to do
 but never got to because &lt;code&gt;#life-happens&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;However I am currently in between moving to a new job and a new home, and
 finally having a quiet time to sit down and write as I enjoy a cup of
@@ -40,11 +37,7 @@ I'm excited to get to writing more frequently-ish!&lt;/p&gt;
 &lt;p&gt;If you're interested with the theme I used, checkout &lt;a href="https://github.com/cr8ivecodesmith/zenmatt"&gt;zenmatt&lt;/a&gt;. It's
 inspired by the look and feel of &lt;a href="http://mnmlist.com/"&gt;mnmlist.com&lt;/a&gt;.
 Contributions are welcome!&lt;/p&gt;</content></entry><entry><title>getting indefinite input feed in hackerrank</title><link href="https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html" rel="alternate"></link><published>2016-10-25T16:04:00+08:00</published><updated>2016-10-25T16:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</id><summary type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
-0 1 0 0 0 0
-1 1 1 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0 …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
 0 1 0 0 0 0
 1 1 1 0 0 0
@@ -77,10 +70,7 @@ Contributions are welcome!&lt;/p&gt;</content></entry><entry><title>getting inde
 
 
 &lt;p&gt;From my observation, it seems the input is coming from a file and its being streamed to &lt;code&gt;STDIN&lt;/code&gt; one line at a time.&lt;/p&gt;</content><category term="python"></category></entry><entry><title>use different git ssh key per project</title><link href="https://blog.mattlebrun.com/2016/09/use-different-git-ssh-key-per-project.html" rel="alternate"></link><published>2016-09-14T16:47:00+08:00</published><updated>2016-09-14T16:47:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-09-14:/2016/09/use-different-git-ssh-key-per-project.html</id><summary type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
-i.e. you use different keys for deployment, personal, company A, company B, etc.&lt;/p&gt;
-&lt;p&gt;Then you probably have wondered how to tell git which key to use to manage the
-repo.&lt;/p&gt;
-&lt;p&gt;You could use the &lt;a href="https://www.git-scm.com/docs/git-remote-ext"&gt;git-remote-ext …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
+i.e. you use different keys for deployment, personal, company A …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
 i.e. you use different keys for deployment, personal, company A, company B, etc.&lt;/p&gt;
 &lt;p&gt;Then you probably have wondered how to tell git which key to use to manage the
 repo.&lt;/p&gt;
@@ -106,12 +96,7 @@ origin ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git &lt;span cl
 $ git fetch
 &lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>so long 2013, thanks for all the fish!</title><link href="https://blog.mattlebrun.com/2014/01/so-long-2013-thanks-for-all-the-fish.html" rel="alternate"></link><published>2014-01-01T00:00:00+08:00</published><updated>2014-01-01T00:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2014-01-01:/2014/01/so-long-2013-thanks-for-all-the-fish.html</id><summary type="html">&lt;p&gt;Another year has been shaved off of my remaining years of existence and its 
 high time to reflect on all of my experiences.&lt;/p&gt;
-&lt;h3&gt;tl;dr&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2013 was a year filled with unexpected, yet pleasant turn of events.
-A lot of milestones have been reached earlier than expected.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Now for the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another year has been shaved off of my remaining years of existence and its 
+&lt;h3&gt;tl;dr …&lt;/h3&gt;</summary><content type="html">&lt;p&gt;Another year has been shaved off of my remaining years of existence and its 
 high time to reflect on all of my experiences.&lt;/p&gt;
 &lt;h3&gt;tl;dr&lt;/h3&gt;
 &lt;blockquote&gt;
@@ -167,9 +152,7 @@ that have happened are but a starting point so I'm expecting challenges to come
 this year. If anything, I'm actually looking forward to it.&lt;/p&gt;
 &lt;p&gt;2014 here we go!&lt;/p&gt;</content></entry><entry><title>new year, new home for my domains</title><link href="https://blog.mattlebrun.com/2013/12/new-year-new-home-for-my-domains.html" rel="alternate"></link><published>2013-12-21T12:40:00+08:00</published><updated>2013-12-21T12:40:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2013-12-21:/2013/12/new-year-new-home-for-my-domains.html</id><summary type="html">&lt;p&gt;Its almost Christmas and the domains I've registered last year are a few days 
 short of expiration. Its time to make a choice!&lt;/p&gt;
-&lt;h2&gt;GoDaddy - a brief background&lt;/h2&gt;
-&lt;p&gt;Last year I got myself several nice domains for a very cheap price at GoDaddy. 
-I was pretty much new with buying stuff …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Its almost Christmas and the domains I've registered last year are a few days 
+&lt;h2&gt;GoDaddy - a …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;Its almost Christmas and the domains I've registered last year are a few days 
 short of expiration. Its time to make a choice!&lt;/p&gt;
 &lt;h2&gt;GoDaddy - a brief background&lt;/h2&gt;
 &lt;p&gt;Last year I got myself several nice domains for a very cheap price at GoDaddy. 
@@ -201,9 +184,7 @@ new one, I highly recommend in giving them a try.&lt;/p&gt;
 &lt;p&gt;Use this promo code to get a $1 discount: &lt;code&gt;freedollar&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Or visit their page with my affiliate &lt;a href="http://www.namesilo.com/?rid=4193c40rx"&gt;link&lt;/a&gt; and make me happy :)&lt;/p&gt;</content></entry><entry><title>the setup</title><link href="https://blog.mattlebrun.com/2013/06/the-setup.html" rel="alternate"></link><published>2013-06-11T23:00:00+08:00</published><updated>2013-06-11T23:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2013-06-11:/2013/06/the-setup.html</id><summary type="html">&lt;p&gt;I was browsing the social networks today and chanced upon 
 &lt;a href="http://usesthis.com/"&gt;The Setup&lt;/a&gt; which is a website that features 
-interviews of people &lt;em&gt;(mostly geeks)&lt;/em&gt; where they get to talk about what 
-they do and then elaborate more on what tools (hardware and software) they 
-use to get shit done. I thought …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was browsing the social networks today and chanced upon 
+interviews of people &lt;em&gt;(mostly geeks)&lt;/em&gt; where they …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was browsing the social networks today and chanced upon 
 &lt;a href="http://usesthis.com/"&gt;The Setup&lt;/a&gt; which is a website that features 
 interviews of people &lt;em&gt;(mostly geeks)&lt;/em&gt; where they get to talk about what 
 they do and then elaborate more on what tools (hardware and software) they 
@@ -289,11 +270,7 @@ my PC and tablet. &lt;/p&gt;
 kernel and do a rolling release just like Arch. &lt;/p&gt;
 &lt;p&gt;If I had the budget, I'd get something like a Galaxy Note 2 or Nexus 4. &lt;/p&gt;</content></entry><entry><title>the way of the pelican and the order of silly walks</title><link href="https://blog.mattlebrun.com/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html" rel="alternate"></link><published>2013-05-25T18:00:00+08:00</published><updated>2013-05-25T18:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2013-05-25:/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html</id><summary type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
 internets. He talked about tales of discoveries and adventures, of code and
-sorcery, of... &lt;em&gt;well you get the point&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Let me tell you his story.&lt;/p&gt;
-&lt;div class="section" id="the-art-of-blogging"&gt;
-&lt;h2&gt;the art of blogging&lt;/h2&gt;
-&lt;p&gt;For many months he poured all of his energy …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
+sorcery …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
 internets. He talked about tales of discoveries and adventures, of code and
 sorcery, of... &lt;em&gt;well you get the point&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Let me tell you his story.&lt;/p&gt;
@@ -494,9 +471,7 @@ many years... until further notice.&lt;/p&gt;
 &lt;/div&gt;
 </content></entry><entry><title>why you don't need to know everything right away</title><link href="https://blog.mattlebrun.com/2012/09/why-you-dont-need-to-know-everything-right-away.html" rel="alternate"></link><published>2012-09-18T15:30:00+08:00</published><updated>2012-09-18T15:30:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2012-09-18:/2012/09/why-you-dont-need-to-know-everything-right-away.html</id><summary type="html">&lt;p&gt;Learning and researching about a new technology or problem area is a very 
 exciting activity for programmers. &lt;/p&gt;
-&lt;p&gt;Curiosity, for a programmer, is like an insatiable impulse. An unquenchable 
-thirst. You take your time as you browse through one information to 
-another. Consuming content after content. This can span from hours …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Learning and researching about a new technology or problem area is a very 
+&lt;p&gt;Curiosity, for a programmer, is like an insatiable …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Learning and researching about a new technology or problem area is a very 
 exciting activity for programmers. &lt;/p&gt;
 &lt;p&gt;Curiosity, for a programmer, is like an insatiable impulse. An unquenchable 
 thirst. You take your time as you browse through one information to 
@@ -517,9 +492,7 @@ will you have that sense of accomplishment from actually shipping
 something. &lt;/p&gt;
 &lt;p&gt;So how do you deal with your insatiable curiosity? &lt;/p&gt;</content></entry><entry><title>hello world! v2.0: reflections on leaving the 9-5 life</title><link href="https://blog.mattlebrun.com/2012/09/hello-world-v20-reflections-on-leaving-the-9-5-life.html" rel="alternate"></link><published>2012-09-17T21:00:00+08:00</published><updated>2012-09-17T21:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2012-09-17:/2012/09/hello-world-v20-reflections-on-leaving-the-9-5-life.html</id><summary type="html">&lt;p&gt;My recent move to finally join &lt;em&gt;(full-time)&lt;/em&gt; the tech start-up scene made me 
 reflect once again on this topic. &lt;/p&gt;
-&lt;p&gt;I feel like I've just stepped into the "unknown abyss" that we call the 
-entrepreneurial road where a steady monthly paycheck is out of the 
-question. This is quite a big …&lt;/p&gt;</summary><content type="html">&lt;p&gt;My recent move to finally join &lt;em&gt;(full-time)&lt;/em&gt; the tech start-up scene made me 
+&lt;p&gt;I feel like I've just stepped …&lt;/p&gt;</summary><content type="html">&lt;p&gt;My recent move to finally join &lt;em&gt;(full-time)&lt;/em&gt; the tech start-up scene made me 
 reflect once again on this topic. &lt;/p&gt;
 &lt;p&gt;I feel like I've just stepped into the "unknown abyss" that we call the 
 entrepreneurial road where a steady monthly paycheck is out of the 
