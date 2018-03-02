@@ -48,4 +48,4 @@ love to hear your thoughts and stories. Talk to me on `twitter`_.
 .. _PyConPH 2018: https://pycon.python.ph
 .. _difficulty in meeting new people: http://ericholscher.com/blog/2017/dec/2/breaking-cliques-at-events/#difficulty-meeting-new-people
 .. _I just had to try: https://twitter.com/cr8ivecodesmith/status/937531469194395648
-.. _twitter: https://twitter.com/cr8ivecodesmith
+.. _twitter: https://twitter.com/cr8ivecodesmith/status/969460040288559105
