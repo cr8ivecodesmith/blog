@@ -24,15 +24,27 @@ $ . v/bin/activate
 (v) $ pip install -r requirements.txt
 ```
 
-2) Run the dev server
+2) Clone the [zenmatt](https://github.com/cr8ivecodesmith/zenmatt) theme
+
+```
+(v) $ git clone git@github.com:cr8ivecodesmith/zenmatt.git
+```
+
+3) Copy the favicon to the theme folder
+
+```
+(v) $ cp favicon.ico zenmatt/static/img/
+```
+
+4) Run the dev server
 
 ```
 (v) $ ./develop_server.sh start
 ```
 
-3) Open your [browser](http://localhost:8000)
+5) Open your [browser](http://localhost:8000)
 
-4) Deploy changes
+6) Deploy changes
 
 ```
 (v) $ make github
