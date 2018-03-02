@@ -105,14 +105,16 @@ They too are bloggers like him and gained a cult following of
 audience. But they appeared different somehow. They looked happy, fulfilled,
 simple and pure to the core.
 
-.. code-block:: html
+.. raw:: html
 
+    <div class="video-container">
     <iframe id="player" type="text/html"
         width="640"
         height="480"
         src="http://www.youtube.com/embed/IqhlQfXUk7w?enablejsapi=1&origin="
         frameborder=0>
     </iframe>
+    </div>
 
 
 **********
