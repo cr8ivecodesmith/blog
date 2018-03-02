@@ -118,7 +118,7 @@ DEFAULT_METADATA = {
 
 # Theme Settings
 THEME = 'zenmatt'
-# PYGMENTS_STYLE = 'default'
+PYGMENTS_STYLE = 'default'
 COPYRIGHT_YEAR = '2018'
 COPYLEFT = True
 # GOOGLE_ANALYTICS = None

@@ -4,6 +4,7 @@ the way of the pelican and the order of silly walks
 
 :date: 2013-05-25 18:00
 :category: code
+:tags: python
 :status: published
 
 
@@ -104,7 +105,7 @@ They too are bloggers like him and gained a cult following of
 audience. But they appeared different somehow. They looked happy, fulfilled,
 simple and pure to the core.
 
-.. raw:: html
+.. code-block:: html
 
     <iframe id="player" type="text/html"
         width="640"
