@@ -6,6 +6,7 @@ getting into cycling
 :category: cycling
 :tags: nyfti
 :status: published
+:header_image: {attach}/images/getting-into-cycling-001.jpg
 
 
 If you're like me, you probably had your on-and-off bouts using a bicycle.
