@@ -60,8 +60,7 @@ co-founder and CEO, and he had me try one of the bikes for a spin. I was
 instantly hooked at how easy the riding and handling of the bike was.
 
 .. image:: /static/images/getting-into-cycling-000.jpg
-    :width: 640px
-    :height: 480px
+    :class: img-fluid
     :align: center
     :alt: Talking to Carl about the Nyfti bike
 
