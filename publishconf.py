@@ -18,10 +18,10 @@ DELETE_OUTPUT_DIRECTORY = True
 # Feed Settings
 FEED_ALL_ATOM = 'feeds/blog.mattlebrun.com.all.atom.xml'
 FEED_ALL_RSS = 'feeds/blog.mattlebrun.com.all.rss.xml'
-CATEGORY_FEED_ATOM = 'feeds/blog.mattlebrun.com.%s.atom.xml'
-CATEGORY_FEED_RSS = 'feeds/blog.mattlebrun.com.%s.rss.xml'
-TAG_FEED_ATOM = 'feeds/blog.mattlebrun.com.%s.atom.xml'
-TAG_FEED_RSS = 'feeds/blog.mattlebrun.com.%s.rss.xml'
+CATEGORY_FEED_ATOM = 'feeds/blog.mattlebrun.com.{slug}.atom.xml'
+CATEGORY_FEED_RSS = 'feeds/blog.mattlebrun.com.{slug}.rss.xml'
+TAG_FEED_ATOM = 'feeds/blog.mattlebrun.com.{slug}.atom.xml'
+TAG_FEED_RSS = 'feeds/blog.mattlebrun.com.{slug}.rss.xml'
 
 
 # Theme Settings
