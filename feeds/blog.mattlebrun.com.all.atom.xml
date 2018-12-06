@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2018-06-24T16:44:00+08:00</updated><entry><title>getting into cycling</title><link href="https://blog.mattlebrun.com/2018/06/getting-into-cycling.html" rel="alternate"></link><published>2018-06-24T16:44:00+08:00</published><updated>2018-06-24T16:44:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2018-06-24:/2018/06/getting-into-cycling.html</id><summary type="html">&lt;p&gt;If you're like me, you probably had your on-and-off bouts using a bicycle.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2018-06-24T16:44:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>getting into cycling</title><link href="https://blog.mattlebrun.com/2018/06/getting-into-cycling.html" rel="alternate"></link><published>2018-06-24T16:44:00+08:00</published><updated>2018-06-24T16:44:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2018-06-24:/2018/06/getting-into-cycling.html</id><summary type="html">&lt;p&gt;If you're like me, you probably had your on-and-off bouts using a bicycle.
 Perhaps you even thought it's not meant for you. However, life changes …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you're like me, you probably had your on-and-off bouts using a bicycle.
 Perhaps you even thought it's not meant for you. However, life changes, Manila
 traffic got worst, and I wanted to break away from being sedentary. So here
@@ -64,7 +64,7 @@ into a small space too!&lt;/p&gt;
 &lt;p&gt;Since then I've already taken it out for a few rides which I will be
 talking about soon.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="nyfti"></category></entry><entry><title>pycon experiments: getting people talking</title><link href="https://blog.mattlebrun.com/2018/03/pycon-experiments-getting-people-talking.html" rel="alternate"></link><published>2018-03-02T11:50:00+08:00</published><updated>2018-03-02T11:50:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2018-03-02:/2018/03/pycon-experiments-getting-people-talking.html</id><summary type="html">&lt;p&gt;A few months before &lt;a class="reference external" href="https://pycon.python.ph"&gt;PyConPH 2018&lt;/a&gt;, I chanced upon Eric Holscher's blog post
+</content><category term="nyfti"></category><category term="cycling"></category></entry><entry><title>pycon experiments: getting people talking</title><link href="https://blog.mattlebrun.com/2018/03/pycon-experiments-getting-people-talking.html" rel="alternate"></link><published>2018-03-02T11:50:00+08:00</published><updated>2018-03-02T11:50:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2018-03-02:/2018/03/pycon-experiments-getting-people-talking.html</id><summary type="html">&lt;p&gt;A few months before &lt;a class="reference external" href="https://pycon.python.ph"&gt;PyConPH 2018&lt;/a&gt;, I chanced upon Eric Holscher's blog post
 on &lt;strong&gt;Breaking Cliques at Events&lt;/strong&gt;, specifically in
 &lt;a class="reference external" href="http://ericholscher.com/blog/2017/dec/2/breaking-cliques-at-events/#difficulty-meeting-new-people"&gt;difficulty in meeting new people …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few months before &lt;a class="reference external" href="https://pycon.python.ph"&gt;PyConPH 2018&lt;/a&gt;, I chanced upon Eric Holscher's blog post
 on &lt;strong&gt;Breaking Cliques at Events&lt;/strong&gt;, specifically in
@@ -186,7 +186,49 @@ origin ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git &lt;span cl
 origin ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git &lt;span class="o"&gt;(&lt;/span&gt;push&lt;span class="o"&gt;)&lt;/span&gt;
 
 $ git fetch
-&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>so long 2013, thanks for all the fish!</title><link href="https://blog.mattlebrun.com/2014/01/so-long-2013-thanks-for-all-the-fish.html" rel="alternate"></link><published>2014-01-01T00:00:00+08:00</published><updated>2014-01-01T00:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2014-01-01:/2014/01/so-long-2013-thanks-for-all-the-fish.html</id><summary type="html">&lt;p&gt;Another year has been shaved off of my remaining years of existence and its 
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>a box of chocolates</title><link href="https://blog.mattlebrun.com/2014/08/a-box-of-chocolates.html" rel="alternate"></link><published>2014-08-19T19:14:41+08:00</published><updated>2014-08-19T19:14:41+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2014-08-19:/2014/08/a-box-of-chocolates.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;My momma always said, "Life was like a box of chocolates. You never know what you're gonna get."
+- Forrest Gump&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I'm a curious guy. I …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;My momma always said, "Life was like a box of chocolates. You never know what you're gonna get."
+- Forrest Gump&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I'm a curious guy. I look a the world with an eye of wonder. When I'm interested in something -- may
+it be a game, a skill, a piece of technology, a practice, etc. -- I tend to learn as much as I can
+about it. Use or learn it to the way it should be or bring it to its full potential. Sometimes I
+even go a step further and use or apply it in unexpected ways.&lt;/p&gt;
+&lt;p&gt;This space is dedicated to those endeavors that I may always remember them.&lt;/p&gt;</content></entry><entry><title>4 weeks to fitness experiment</title><link href="https://blog.mattlebrun.com/2014/01/4-weeks-to-fitness-experiment.html" rel="alternate"></link><published>2014-01-02T17:48:00+08:00</published><updated>2014-01-02T17:48:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2014-01-02:/2014/01/4-weeks-to-fitness-experiment.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;A healthy programmer, is an effective programmer.&lt;br&gt;
+- me (when deciding to write this post)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One of my key goals for this year is to get …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;A healthy programmer, is an effective programmer.&lt;br&gt;
+- me (when deciding to write this post)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One of my key goals for this year is to get in to the habit of keeping myself 
+healthy. I believe its in our best interest as software engineers to have a 
+balanced lifestlye to ensure that we are always working to the best of our 
+abilities.&lt;/p&gt;
+&lt;p&gt;Since April of last year I've started feeling my way towards adding regular 
+exercises as part of my weekly activities. I make sure that I do something to 
+get my blood pumping at least once a week. While I've not been emperically 
+tracking the effects of these efforts, It just feels good to get some 
+adrenaline rush every now and then.&lt;/p&gt;
+&lt;p&gt;On a side note, my body fat percentage did became normal which was a first!&lt;/p&gt;
+&lt;p&gt;Anyway, I decided to take things up a notch for this month in the efforts of 
+making this habit stick.&lt;/p&gt;
+&lt;p&gt;I'll be following a 
+&lt;a href="http://www.lulu.com/shop/daniel-segars-and-kelli-segars/low-impact-4-week-fat-loss-program-for-beginners/ebook/product-21250586.html"&gt;4-week program&lt;/a&gt; 
+set up by the awesome folks at &lt;a href="http://www.fitnessblender.com/"&gt;Fitness Blender&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;I'll be doing a weekly update of my progress here and see how it goes.&lt;/s&gt;&lt;/p&gt;
+&lt;h4&gt;update&lt;/h4&gt;
+&lt;p&gt;Whilst I've been lazy about documenting my 4-week experimentation, I can tell you that I've had
+phenomenal results following the program.&lt;/p&gt;
+&lt;p&gt;Since then, I've developed a habit of regular exercise and is now part of my weekly routine. I've
+also tried out other exercise practices lately such as HIIT and the 7-minute workout to great effect
+as well.&lt;/p&gt;
+&lt;p&gt;I'm now starting a new fitness program which I'll be writing about soon.&lt;/p&gt;</content><category term="fitness"></category></entry><entry><title>so long 2013, thanks for all the fish!</title><link href="https://blog.mattlebrun.com/2014/01/so-long-2013-thanks-for-all-the-fish.html" rel="alternate"></link><published>2014-01-01T00:00:00+08:00</published><updated>2014-01-01T00:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2014-01-01:/2014/01/so-long-2013-thanks-for-all-the-fish.html</id><summary type="html">&lt;p&gt;Another year has been shaved off of my remaining years of existence and its 
 high time to reflect on all of my experiences.&lt;/p&gt;
 &lt;h3&gt;tl;dr …&lt;/h3&gt;</summary><content type="html">&lt;p&gt;Another year has been shaved off of my remaining years of existence and its 
 high time to reflect on all of my experiences.&lt;/p&gt;
@@ -563,7 +605,25 @@ found enlightenment, he went back home happier for once more the focus of
 his blog is about creating wonderful content. The days of joy went on for
 many years... until further notice.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="python"></category></entry><entry><title>why you don't need to know everything right away</title><link href="https://blog.mattlebrun.com/2012/09/why-you-dont-need-to-know-everything-right-away.html" rel="alternate"></link><published>2012-09-18T15:30:00+08:00</published><updated>2012-09-18T15:30:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2012-09-18:/2012/09/why-you-dont-need-to-know-everything-right-away.html</id><summary type="html">&lt;p&gt;Learning and researching about a new technology or problem area is a very 
+</content><category term="python"></category></entry><entry><title>good habits: the root cause in turning your dreams into reality</title><link href="https://blog.mattlebrun.com/2012/09/good-habits.html" rel="alternate"></link><published>2012-09-23T15:00:00+08:00</published><updated>2012-09-23T15:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2012-09-23:/2012/09/good-habits.html</id><summary type="html">&lt;p&gt;I attended a dream boarding workshop with Mickey last September 22. What I 
+thought to be just a day of fulfilling &lt;em&gt;"boyfriend duties"&lt;/em&gt;, turned out …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I attended a dream boarding workshop with Mickey last September 22. What I 
+thought to be just a day of fulfilling &lt;em&gt;"boyfriend duties"&lt;/em&gt;, turned out 
+quite amazing. &lt;/p&gt;
+&lt;p&gt;I made a realization. &lt;/p&gt;
+&lt;p&gt;In case you didn't know; dream boarding is when you put visual 
+representation of your goals, desires, ambitions, dreams or what have you 
+in a piece of card board &lt;em&gt;(best on an illustration board).&lt;/em&gt; The idea is 
+that, these images becomes a mantra or a cue. Something that you can focus 
+on. &lt;/p&gt;
+&lt;p&gt;Since the workshop activities were timebound and the board we used is small 
+(1/8 illustration board), we were forced to prioritize what to put on the 
+board. &lt;/p&gt;
+&lt;p&gt;This got me thinking. &lt;/p&gt;
+&lt;p&gt;What are the most important goals do I have in the next couple of years or 
+the next few months even? Then I realized that what I really need is to 
+improve myself further. And how do I do that? Form better habits. &lt;/p&gt;
+&lt;p&gt;Maybe much of what we wanted to achieve in life may just be a byproduct of 
+having good habits. &lt;/p&gt;</content></entry><entry><title>why you don't need to know everything right away</title><link href="https://blog.mattlebrun.com/2012/09/why-you-dont-need-to-know-everything-right-away.html" rel="alternate"></link><published>2012-09-18T15:30:00+08:00</published><updated>2012-09-18T15:30:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2012-09-18:/2012/09/why-you-dont-need-to-know-everything-right-away.html</id><summary type="html">&lt;p&gt;Learning and researching about a new technology or problem area is a very 
 exciting activity for programmers. &lt;/p&gt;
 &lt;p&gt;Curiosity, for a programmer, is like an insatiable …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Learning and researching about a new technology or problem area is a very 
 exciting activity for programmers. &lt;/p&gt;
@@ -609,4 +669,42 @@ required for this: &lt;/p&gt;
 &lt;p&gt;People who care about you are affected the most in every decision or path 
 you take. If you care about them too, you won't feel there's any point in 
 your undertakings if you don't have them to share your ups and downs. It'll 
-be one lonely roller coaster ride indeed. &lt;/p&gt;</content></entry></feed>
+be one lonely roller coaster ride indeed. &lt;/p&gt;</content></entry><entry><title>don't waste time, it's more scarce than you think!</title><link href="https://blog.mattlebrun.com/2012/07/dont-waste-time.html" rel="alternate"></link><published>2012-07-26T18:30:00+08:00</published><updated>2012-07-26T18:30:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2012-07-26:/2012/07/dont-waste-time.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;When you say "yes" to others, make sure you are not saying "no" to 
+yourself.
+- Paulo Coelho&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Today I've been reminded of my struggle for …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;When you say "yes" to others, make sure you are not saying "no" to 
+yourself.
+- Paulo Coelho&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Today I've been reminded of my struggle for having ownership with my work. 
+A puzzle that I've finally solved after reaching a crossroad in my career. &lt;/p&gt;
+&lt;p&gt;I've realized that when you're just doing your job or joined a company for 
+the money, you're not only short-changing yourself, you're also doing it to 
+the organization. If you're like me, who always makes sure you got your end 
+covered so as not to drag people down, you'll probably feel bad about doing 
+this intentionally or not.&lt;/p&gt;
+&lt;p&gt;Recalling my previous work experiences; Yes I was challenged, excited, 
+learned and shared new things, met new people, and I grew my skills set. 
+But I never felt I owned the things I've done nor the projects I've 
+launched. &lt;/p&gt;
+&lt;p&gt;At some point it just felt mechanical &lt;em&gt;-- input given, output delivered.&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;No extra-mile. &lt;/p&gt;
+&lt;p&gt;No flowery, feel good, &lt;em&gt;if-I-blew-this-I'll-feel-like-shit-the-next-day&lt;/em&gt; 
+effect. &lt;/p&gt;
+&lt;p&gt;I always ask the question, "To what end am I doing this?". &lt;/p&gt;
+&lt;p&gt;Usual &lt;em&gt;(and wrong)&lt;/em&gt; answer: For the money. &lt;/p&gt;
+&lt;p&gt;Perhaps I never really identified with the organizations I've joined in the 
+past. &lt;/p&gt;
+&lt;p&gt;Perhaps I didn't get the chance to work on things that aligned with my 
+strong points. &lt;/p&gt;
+&lt;p&gt;But whatever the reason is, once you've realized these things it's time to 
+stay true to yourself and others. &lt;/p&gt;
+&lt;p&gt;Change your attitude or leave the job if you have to &lt;em&gt;(or both)&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;Just be sure you're not just doing it for the money &lt;em&gt;-- or you just 
+momentarily have to as part of a grander purpose.&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;Do it for love and passion instead. &lt;/p&gt;
+&lt;p&gt;A dear friend always reminds me that the money always comes after. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Again:&lt;/strong&gt; Don't waste time, it's more scarce than you think!&lt;/p&gt;</content></entry></feed>
