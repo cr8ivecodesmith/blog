@@ -3,8 +3,8 @@ getting into cycling
 ####################
 
 :date: 2018-06-24 16:44
-:category: cycling
-:tags: nyfti
+:category: health
+:tags: nyfti,cycling
 :status: published
 :header_image: https://blog.mattlebrun.com/static/images/getting-into-cycling-001.jpg
 
