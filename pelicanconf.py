@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 from datetime import datetime
+
+BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
 AUTHOR = 'Matt Lebrun'
 SITENAME = 'matt lebrun'
@@ -46,7 +49,7 @@ DAY_ARCHIVE_SAVE_AS = ''
 
 
 # Path Settings
-PATH = 'content'
+PATH = os.path.join(BASEDIR, 'content')
 STATIC_PATHS = [
     'static/images',
     'static/downloads',
