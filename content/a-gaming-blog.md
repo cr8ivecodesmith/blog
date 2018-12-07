@@ -2,6 +2,7 @@ Title: a gaming blog
 Date: 2013-08-06 18:25
 Category: play
 Slug: a-gaming-blog
+Status: published
 
 
 > "The games of old are nothing like the games of this age."

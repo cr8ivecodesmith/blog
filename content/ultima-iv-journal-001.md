@@ -3,6 +3,7 @@ Date: 2013-08-06 22:35
 Category: play
 Tags: game-journal, ultima-iv
 Slug: ultima-iv-game-journal-001
+Status: published
 
 
 It's been a very challenging week for me and I just wanted to escape from 

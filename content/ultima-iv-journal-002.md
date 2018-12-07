@@ -4,6 +4,7 @@ Category: play
 Tags: game-journal, ultima-iv
 Slug: ultima-iv-game-journal-002
 Author: matt lebrun
+Status: published
 
 
 As I am faced with this unknown world I have decided to read and learn 
