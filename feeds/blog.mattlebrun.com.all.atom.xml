@@ -21,10 +21,10 @@ saw this video a few years ago that really made me yearn for one:&lt;/p&gt;
    &lt;div class="col-lg-2 col-md-0 col-sm-0"&gt;&lt;/div&gt;
    &lt;div class="col-lg-8 col-md-12 col-sm-12"&gt;
       &lt;div class="mx-auto d-block"&gt;
-           &lt;iframe id="player" type="text/html"
-               width="100%" height="480"
-               src="https://www.youtube.com/embed/txi2zIjDG3Q?&amp;enablejsapi=1&amp;origin="
-               frameborder=0&gt;&lt;/iframe&gt;
+         &lt;iframe id="player" type="text/html"
+         width="100%" height="480"
+         src="https://www.youtube.com/embed/txi2zIjDG3Q?&amp;enablejsapi=1&amp;origin="
+         frameborder=0&gt;&lt;/iframe&gt;
       &lt;/div&gt;
    &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The bicycle featured in this video is the original &lt;a class="reference external" href="http://nyftibicycles.strikingly.com/"&gt;Nyfti&lt;/a&gt; folding bike. It is
@@ -80,13 +80,16 @@ will be people holding up papers with a topic around the place. If the topic
 interests them, we encouraged them to go there and talk about it with other
 people interested in the same topic.&lt;/p&gt;
 &lt;p&gt;The response was very positive! People were chatting and making new friends!&lt;/p&gt;
-&lt;div class="video-container"&gt;
-&lt;iframe id="player" type="text/html"
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/yYrizc2kWSI?start=94&amp;enablejsapi=1&amp;origin="
-    frameborder=0&gt;
-&lt;/iframe&gt;
+&lt;div class="row section-bot"&gt;
+   &lt;div class="col-lg-2 col-md-0 col-sm-0"&gt;&lt;/div&gt;
+   &lt;div class="col-lg-8 col-md-12 col-sm-12"&gt;
+      &lt;div class="mx-auto d-block"&gt;
+         &lt;iframe id="player" type="text/html"
+         width="100%" height="480"
+         src="https://www.youtube.com/embed/yYrizc2kWSI?start=94&amp;enablejsapi=1&amp;origin="
+         frameborder=0&gt;&lt;/iframe&gt;
+      &lt;/div&gt;
+   &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Another thing we did was put bookmarks of the same design in their swagbags and
 encourage them to find people with a different design to trade with.&lt;/p&gt;
 &lt;p&gt;Do you have other tips on making people interact more during conferences? I'd
