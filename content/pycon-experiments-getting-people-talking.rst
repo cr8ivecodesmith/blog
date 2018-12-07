@@ -28,14 +28,17 @@ The response was very positive! People were chatting and making new friends!
 
 .. raw:: html
 
-    <div class="video-container">
-    <iframe id="player" type="text/html"
-        width="640"
-        height="480"
-        src="https://www.youtube.com/embed/yYrizc2kWSI?start=94&enablejsapi=1&origin="
-        frameborder=0>
-    </iframe>
-    </div>
+   <div class="row section-bot">
+      <div class="col-lg-2 col-md-0 col-sm-0"></div>
+      <div class="col-lg-8 col-md-12 col-sm-12">
+         <div class="mx-auto d-block">
+            <iframe id="player" type="text/html"
+            width="100%" height="480"
+            src="https://www.youtube.com/embed/yYrizc2kWSI?start=94&enablejsapi=1&origin="
+            frameborder=0></iframe>
+         </div>
+      </div>
+   </div>
 
 
 Another thing we did was put bookmarks of the same design in their swagbags and
