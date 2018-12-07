@@ -7,6 +7,7 @@ getting into cycling
 :tags: nyfti,cycling
 :status: published
 :header_image: https://blog.mattlebrun.com/static/images/getting-into-cycling-001.jpg
+:header_image_alt: Nyfti test drive Makati-BGC 1
 
 
 If you're like me, you probably had your on-and-off bouts using a bicycle.
@@ -35,16 +36,17 @@ saw this video a few years ago that really made me yearn for one:
 
 .. raw:: html
 
-    <div style="padding-bottom: 1em;">
-    <div class="video-container">
-    <iframe id="player" type="text/html"
-        width="640"
-        height="480"
-        src="https://www.youtube.com/embed/txi2zIjDG3Q?&enablejsapi=1&origin="
-        frameborder=0>
-    </iframe>
-    </div>
-    </div>
+   <div class="row section-bot">
+      <div class="col-lg-2 col-md-0 col-sm-0"></div>
+      <div class="col-lg-8 col-md-12 col-sm-12">
+         <div class="mx-auto d-block">
+              <iframe id="player" type="text/html"
+                  width="100%" height="480"
+                  src="https://www.youtube.com/embed/txi2zIjDG3Q?&enablejsapi=1&origin="
+                  frameborder=0></iframe>
+         </div>
+      </div>
+   </div>
 
 
 The bicycle featured in this video is the original `Nyfti`_ folding bike. It is
@@ -60,7 +62,7 @@ co-founder and CEO, and he had me try one of the bikes for a spin. I was
 instantly hooked at how easy the riding and handling of the bike was.
 
 .. image:: /static/images/getting-into-cycling-000.jpg
-    :class: img-fluid
+    :class: img-fluid mx-auto d-block zenm-media-max section-bot
     :align: center
     :alt: Talking to Carl about the Nyfti bike
 
@@ -78,17 +80,12 @@ my first 12km riding a bike
 We met again a few weeks later at his place and set off to Mickey and I's
 very first long-ish bike ride.
 
-.. image:: /static/images/getting-into-cycling-001.jpg
-    :class: img-fluid
-    :align: center
-    :alt: Nyfti test drive Makati-BGC 1
-
 These are the Nyfti bikes we used to get to BGC. It was my first time cycling
 across EDSA or cycling for more than a kilometer really. It was scary, thrilling
 and just an overall fun experience!
 
 .. image:: /static/images/getting-into-cycling-002.jpg
-    :class: img-fluid
+    :class: img-fluid mx-auto d-block zenm-media-max section-bot
     :align: center
     :alt: Nyfti test drive Makati-BGC 2
 
@@ -102,7 +99,7 @@ getting my very own Nyfti bike
 Fast forward to June 2018, I am now a proud and happy owner of a Nyfti Raio v2!
 
 .. image:: /static/images/getting-into-cycling-003.jpg
-    :class: img-fluid
+    :class: img-fluid mx-auto d-block zenm-media-max section-bot
     :align: center
     :alt: Nyfti Raio v2 proud owner
 
@@ -110,12 +107,11 @@ The second problem, *where to store the bike*, is solved as it fits perfectly
 into a small space too!
 
 .. image:: /static/images/getting-into-cycling-004.jpg
-    :class: img-fluid
+    :class: img-fluid mx-auto d-block zenm-media-max section-bot
     :align: center
     :alt: Nyfti Raio v2 perfect fit
 
 Since then I've already taken it out for a few rides which I will be
 talking about soon.
-
 
 .. _Nyfti: http://nyftibicycles.strikingly.com/
