@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 import os
-from datetime import datetime
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -122,6 +121,6 @@ DEFAULT_METADATA = {
 # Theme Settings
 THEME = 'zenmatt'
 PYGMENTS_STYLE = 'default'
-COPYRIGHT_YEAR = '2018'
+COPYRIGHT_YEAR = '2019'
 COPYLEFT = True
 # GOOGLE_ANALYTICS = None
