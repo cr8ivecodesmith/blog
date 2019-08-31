@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2019-03-29T12:57:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>kivy development environment setup</title><link href="https://blog.mattlebrun.com/2019/03/kivy-development-environment-setup.html" rel="alternate"></link><published>2019-03-29T12:57:00+08:00</published><updated>2019-03-29T12:57:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-03-29:/2019/03/kivy-development-environment-setup.html</id><summary type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
+<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2019-08-31T23:04:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>how to answer questions you don't know the answer to</title><link href="https://blog.mattlebrun.com/2019/08/how-to-answer-questions-you-dont-know-the-answer-to.html" rel="alternate"></link><published>2019-08-31T23:04:00+08:00</published><updated>2019-08-31T23:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-08-31:/2019/08/how-to-answer-questions-you-dont-know-the-answer-to.html</id><summary type="html">&lt;p&gt;Lately, I find myself reflecting on this question:&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;How do you answer a question that you don't know the answer to?&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This must be a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lately, I find myself reflecting on this question:&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;How do you answer a question that you don't know the answer to?&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This must be a situation that a lot of people in the training / teaching
+services find themselves in for the better part of their careers.&lt;/p&gt;
+&lt;p&gt;The truth is, you will never have the answer to everything and you can never be
+prepared enough. So instead of dreading this situation,
+&lt;strong&gt;I learned to embrace it&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It's okay to not always know the answer, to be wrong, or to take a guess. As a
+software engineer, you are often faced in this situation anyway.&lt;/p&gt;
+&lt;p&gt;Try to remember a time when you we're able to build a new feature you've never
+done before. Something completely new to you.&lt;/p&gt;
+&lt;p&gt;What questions did you ask? How did you establish or reconciled the things that
+you know with the things you don't in order to solve this problem? What was
+your process? How did you come about the progression in aquiring the knowledge
+necessary for the task?&lt;/p&gt;
+&lt;p&gt;This process of learning is very exciting for me. It's like solving a
+mystery case. One piece of information leads to another and opens up another
+set of questions waiting to be answered. Repeat this enough times and you end
+up solving the task at hand and giving you clues on how to solve similar ones
+in the future.&lt;/p&gt;
+&lt;p&gt;As a mentor, you are responsible for creating an environment of discovery and
+experimentation. So focus on that instead -- when you don't know the answer,
+offer an insight on how you would go about discovering the answer. Better yet
+and if time permits, do the extra mile of going through your process of
+discovery with your students!&lt;/p&gt;
+</content><category term="teaching"></category></entry><entry><title>kivy development environment setup</title><link href="https://blog.mattlebrun.com/2019/03/kivy-development-environment-setup.html" rel="alternate"></link><published>2019-03-29T12:57:00+08:00</published><updated>2019-03-29T12:57:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-03-29:/2019/03/kivy-development-environment-setup.html</id><summary type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
 it.&lt;/p&gt;
 &lt;p&gt;With any development endeavor, the environment needs some setting …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
 it.&lt;/p&gt;
@@ -335,13 +366,13 @@ I'm excited to get to writing more frequently-ish!&lt;/p&gt;
 &lt;p&gt;If you're interested with the theme I used, checkout &lt;a href="https://github.com/cr8ivecodesmith/zenmatt"&gt;zenmatt&lt;/a&gt;. It's
 inspired by the look and feel of &lt;a href="http://mnmlist.com/"&gt;mnmlist.com&lt;/a&gt;.
 Contributions are welcome!&lt;/p&gt;</content></entry><entry><title>getting indefinite input feed in hackerrank</title><link href="https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html" rel="alternate"></link><published>2016-10-25T16:04:00+08:00</published><updated>2016-10-25T16:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</id><summary type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
-0 1 0 0 0 0
-1 1 1 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0 …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
