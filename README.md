@@ -39,7 +39,7 @@ $ . v/bin/activate
 4) Run the dev server
 
 ```
-(v) $ ./develop_server.sh start
+(v) $ make html; make serve
 ```
 
 5) Open your [browser](http://localhost:8000)
