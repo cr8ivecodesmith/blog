@@ -38,8 +38,9 @@ set of questions waiting to be answered. Repeat this enough times and you end
 up solving the task at hand and giving you clues on how to solve similar ones
 in the future.
 
-As a mentor, you are responsible for creating an environment of discovery and
-experimentation. So focus on that instead -- when you don't know the answer,
-offer an insight on how you would go about discovering the answer. Better yet
-and if time permits, do the extra mile of going through your process of
-discovery with your students!
+As a mentor, **you are responsible for creating an environment of discovery and
+experimentation**. So focus on that instead -- when you don't know the answer,
+offer an insight on how you would go about discovering the answer.
+
+Better yet and if time permits, do the extra mile of going through your process
+of discovery with your students!
