@@ -5,6 +5,7 @@ how to answer questions you don't know the answer to
 :date: 2019-08-31 23:04
 :category: thoughts
 :tags: teaching
+:slug: when-you-dont-know-answer
 :status: published
 
 
