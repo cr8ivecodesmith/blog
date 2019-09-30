@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2019-08-31T23:04:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>how to answer questions you don't know the answer to</title><link href="https://blog.mattlebrun.com/2019/08/when-you-dont-know-answer.html" rel="alternate"></link><published>2019-08-31T23:04:00+08:00</published><updated>2019-08-31T23:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-08-31:/2019/08/when-you-dont-know-answer.html</id><summary type="html">&lt;p&gt;Lately, I find myself reflecting on this question:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.all.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2019-09-30T20:11:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>value and cost</title><link href="https://blog.mattlebrun.com/2019/09/value-and-cost.html" rel="alternate"></link><published>2019-09-30T20:11:00+08:00</published><updated>2019-09-30T20:11:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-09-30:/2019/09/value-and-cost.html</id><summary type="html">&lt;p&gt;Think about &lt;strong&gt;cost&lt;/strong&gt; as an economical construct. An objective means
+of measuring the amount of something for trade.&lt;/p&gt;
+&lt;p&gt;Likewise, think about &lt;strong&gt;value&lt;/strong&gt; as a subjective …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Think about &lt;strong&gt;cost&lt;/strong&gt; as an economical construct. An objective means
+of measuring the amount of something for trade.&lt;/p&gt;
+&lt;p&gt;Likewise, think about &lt;strong&gt;value&lt;/strong&gt; as a subjective and personal measurement of how
+important something is to you.&lt;/p&gt;
+&lt;p&gt;Trust and time are some of those currencies that people highly value.&lt;/p&gt;
+&lt;p&gt;To regain or earn back someone's trust or to make up for lost time, be it in
+your business dealings or personal relationships, is to &lt;strong&gt;understand the value
+that the other lost&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This can be very subjective and may have several layers to dig through. You'll
+need to see things from different perspectives. Sometimes this can be very
+costly and may require sacrifices and compromises.&lt;/p&gt;
+</content><category term="musings"></category><category term="reflections"></category></entry><entry><title>how to answer questions you don't know the answer to</title><link href="https://blog.mattlebrun.com/2019/08/when-you-dont-know-answer.html" rel="alternate"></link><published>2019-08-31T23:04:00+08:00</published><updated>2019-08-31T23:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-08-31:/2019/08/when-you-dont-know-answer.html</id><summary type="html">&lt;p&gt;Lately, I find myself reflecting on this question:&lt;/p&gt;
 &lt;div class="line-block"&gt;
 &lt;div class="line"&gt;How do you answer a question that you don't know the answer to?&lt;/div&gt;
 &lt;/div&gt;
@@ -366,13 +379,13 @@ I'm excited to get to writing more frequently-ish!&lt;/p&gt;
 &lt;p&gt;If you're interested with the theme I used, checkout &lt;a href="https://github.com/cr8ivecodesmith/zenmatt"&gt;zenmatt&lt;/a&gt;. It's
 inspired by the look and feel of &lt;a href="http://mnmlist.com/"&gt;mnmlist.com&lt;/a&gt;.
 Contributions are welcome!&lt;/p&gt;</content></entry><entry><title>getting indefinite input feed in hackerrank</title><link href="https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html" rel="alternate"></link><published>2016-10-25T16:04:00+08:00</published><updated>2016-10-25T16:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</id><summary type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0 …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
 &lt;/pre&gt;&lt;/div&gt;
 
 
