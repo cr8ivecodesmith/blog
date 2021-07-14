@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun - thoughts</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.thoughts.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2019-09-30T20:11:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>value and cost</title><link href="https://blog.mattlebrun.com/2019/09/value-and-cost.html" rel="alternate"></link><published>2019-09-30T20:11:00+08:00</published><updated>2019-09-30T20:11:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-09-30:/2019/09/value-and-cost.html</id><summary type="html">&lt;p&gt;Think about &lt;strong&gt;cost&lt;/strong&gt; as an economical construct. An objective means
+<feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun - thoughts</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.thoughts.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2021-07-14T18:49:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>logging projects and experiments</title><link href="https://blog.mattlebrun.com/2021/07/logging-projects-and-experiments.html" rel="alternate"></link><published>2021-07-14T18:49:00+08:00</published><updated>2021-07-14T18:49:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2021-07-14:/2021/07/logging-projects-and-experiments.html</id><summary type="html">&lt;p&gt;Several things happened last year relating to our smartphones breaking down and
+with it, my attempts to repair and/or replace them altogether.&lt;/p&gt;
+&lt;p&gt;Those repair …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Several things happened last year relating to our smartphones breaking down and
+with it, my attempts to repair and/or replace them altogether.&lt;/p&gt;
+&lt;p&gt;Those repair (and destruction) attempts rekindled my interest in hardware
+tinkering, making a pact to only buy used older generation flagship phones,
+and preferring hardware you can &lt;a class="reference external" href="https://www.ifixit.com/Manifesto"&gt;repair yourself&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So since early this year, I've decided to get into electronics as a hobby.&lt;/p&gt;
+&lt;p&gt;Little did I know that this will lead me down a rabbit-hole of other interests
+such as Raspberry Pis, and 3D Printing.&lt;/p&gt;
+&lt;p&gt;I've never gotten into those scenes before due to costs and maturity of the
+technology at the time. Getting into it now, I've realized it has matured
+enough and has had a pretty niche but dedicated community around it.&lt;/p&gt;
+&lt;p&gt;You can get a decent 3D printer now cheaper than a Nintendo Switch, and there's
+a Raspberry Pi with 8GB RAM!&lt;/p&gt;
+&lt;p&gt;Since purchasing an electronics starter kit and a 3D printer in April, I've
+spinned up a few projects and experiments. Apart from that, Mickey and I have
+taken our fasting practice up a notch and I've also revived my calisthenics
+journey.&lt;/p&gt;
+&lt;p&gt;With all that going on, I thought it would be nice to document the things I've
+been working on and what I've learned and discovered in the process.&lt;/p&gt;
+&lt;p&gt;I also think that writing it down will force me to take things slow and enjoy
+the process more.&lt;/p&gt;
+</content><category term="musings"></category></entry><entry><title>value and cost</title><link href="https://blog.mattlebrun.com/2019/09/value-and-cost.html" rel="alternate"></link><published>2019-09-30T20:11:00+08:00</published><updated>2019-09-30T20:11:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-09-30:/2019/09/value-and-cost.html</id><summary type="html">&lt;p&gt;Think about &lt;strong&gt;cost&lt;/strong&gt; as an economical construct. An objective means
 of measuring the amount of something for trade.&lt;/p&gt;
 &lt;p&gt;Likewise, think about &lt;strong&gt;value&lt;/strong&gt; as a subjective …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Think about &lt;strong&gt;cost&lt;/strong&gt; as an economical construct. An objective means
 of measuring the amount of something for trade.&lt;/p&gt;
