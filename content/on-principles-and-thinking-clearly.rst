@@ -6,7 +6,7 @@ on principles and thinking clearly
 :category: thoughts
 :tags: principles,pythonph,philantrophy
 :status: published
-:header_image: https://blog.mattlebrun.com/static/images/adventure-alone-atmosphere-848573.jpg
+:header_image: ../../static/images/adventure-alone-atmosphere-848573.jpg
 :header_image_alt: Photo by Samuel Silitonga from Pexels
 
 

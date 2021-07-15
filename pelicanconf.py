@@ -22,6 +22,10 @@ RELATIVE_URLS = True
 
 # URL Settings
 # See: http://docs.getpelican.com/en/stable/settings.html#url-settings
+# NOTE:
+# Referencing static content must be relative from the slug pattern.
+# i.e. if images is in `static/images` and slug is `year/month/slug.html`,
+# image references should be `../../static/images/image.jpg`
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_LANG_URL = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
