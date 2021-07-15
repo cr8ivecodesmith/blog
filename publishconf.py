@@ -25,4 +25,4 @@ TAG_FEED_RSS = 'feeds/blog.mattlebrun.com.{slug}.rss.xml'
 
 
 # Theme Settings
-GOOGLE_ANALYTICS = 'UA-9679489-4'
+# GOOGLE_ANALYTICS = None
