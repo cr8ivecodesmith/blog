@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 import os
 
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
@@ -9,7 +7,7 @@ AUTHOR = 'Matt Lebrun'
 SITENAME = 'matt lebrun'
 SITESUBTITLE = 'in between code, coffee, and peanut butter.'
 SITEURL = 'http://localhost:8000'
-SUMMARY_MAX_LENGTH = 25
+SUMMARY_MAX_LENGTH = 50  # in words
 
 TIMEZONE = 'Asia/Manila'
 DEFAULT_LANG = 'en'
@@ -22,10 +20,6 @@ RELATIVE_URLS = True
 
 # URL Settings
 # See: http://docs.getpelican.com/en/stable/settings.html#url-settings
-# NOTE:
-# Referencing static content must be relative from the slug pattern.
-# i.e. if images is in `static/images` and slug is `year/month/slug.html`,
-# image references should be `../../static/images/image.jpg`
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_LANG_URL = '{date:%Y}/{date:%m}/{slug}-{lang}.html'
@@ -52,6 +46,11 @@ DAY_ARCHIVE_SAVE_AS = ''
 
 
 # Path Settings
+# Referencing content:
+# Static content:
+# https://docs.getpelican.com/en/stable/content.html#static-content
+# Linking to internal content:
+# https://docs.getpelican.com/en/stable/content.html#linking-to-internal-content
 PATH = os.path.join(BASEDIR, 'content')
 STATIC_PATHS = [
     'static/images',
@@ -120,6 +119,13 @@ DEFAULT_METADATA = {
     # 'date': '{:%Y-%m-%d %H:%M}'.format(datetime.now()),
     # 'modified': '{:%Y-%m-%d %H:%M}'.format(datetime.now()),
 }
+
+
+# Syntax highlightning
+# See: https://docs.getpelican.com/en/stable/content.html#syntax-highlighting
+# PYGMENTS_RST_OPTIONS = {
+#     'classprefix': 'pgcss',
+# }
 
 
 # Theme Settings
