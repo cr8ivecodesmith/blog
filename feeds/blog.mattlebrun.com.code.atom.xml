@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun - code</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.code.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2019-03-29T12:57:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>kivy development environment setup</title><link href="https://blog.mattlebrun.com/2019/03/kivy-development-environment-setup.html" rel="alternate"></link><published>2019-03-29T12:57:00+08:00</published><updated>2019-03-29T12:57:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-03-29:/2019/03/kivy-development-environment-setup.html</id><summary type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
 it.&lt;/p&gt;
-&lt;p&gt;With any development endeavor, the environment needs some setting …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
+&lt;p&gt;With any development endeavor, the environment needs some setting up. It's
+really been a while since I've used Kivy so I'm documenting my process with
+this post.&lt;/p&gt;
+&lt;div class="section" id="pre-requisites"&gt;
+&lt;h2&gt;pre-requisites&lt;/h2&gt;
+&lt;p&gt;My current machine has the ff …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
 it.&lt;/p&gt;
 &lt;p&gt;With any development endeavor, the environment needs some setting up. It's
 really been a while since I've used Kivy so I'm documenting my process with
@@ -18,9 +23,9 @@ this post.&lt;/p&gt;
 &lt;h2&gt;setting up the virtualenv&lt;/h2&gt;
 &lt;p&gt;We will install everything under a pyenv virtualenv based off of Python 3.6.7.&lt;/p&gt;
 &lt;p&gt;We'll then create a virtualenv for the kivy version we will be using.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pyenv install &lt;span class="m"&gt;3&lt;/span&gt;.6.7
-pyenv virtualenv &lt;span class="m"&gt;3&lt;/span&gt;.6.7 kivy3-1.10.1
-pyenv &lt;span class="nb"&gt;local&lt;/span&gt; kivy3-1.10.1
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pyenv&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.6.7
+pyenv&lt;span class="w"&gt; &lt;/span&gt;virtualenv&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.6.7&lt;span class="w"&gt; &lt;/span&gt;kivy3-1.10.1
+pyenv&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;kivy3-1.10.1
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="install-os-packages-required-by-kivy"&gt;
@@ -29,30 +34,30 @@ pyenv &lt;span class="nb"&gt;local&lt;/span&gt; kivy3-1.10.1
 &lt;a class="reference external" href="https://kivy.org/doc/stable/installation/installation-linux.html#dependencies-with-sdl2"&gt;official docs&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="install-necessary-system-packages"&gt;
 &lt;h3&gt;install necessary system packages&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install -y &lt;span class="se"&gt;\&lt;/span&gt;
-    python3-pip &lt;span class="se"&gt;\&lt;/span&gt;
-    build-essential &lt;span class="se"&gt;\&lt;/span&gt;
-    git &lt;span class="se"&gt;\&lt;/span&gt;
-    python3 &lt;span class="se"&gt;\&lt;/span&gt;
-    python3-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    ffmpeg &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-image-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-mixer-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-ttf-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libportmidi-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libswscale-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libavformat-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libavcodec-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    zlib1g-dev
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;-y&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;python3-pip&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;build-essential&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;python3&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;python3-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;ffmpeg&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-image-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-mixer-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-ttf-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libportmidi-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libswscale-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libavformat-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libavcodec-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;zlib1g-dev
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="install-gstreamer-for-audio-video-optional"&gt;
 &lt;h3&gt;install gstreamer for audio, video (optional)&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install -y &lt;span class="se"&gt;\&lt;/span&gt;
-    libgstreamer1.0 &lt;span class="se"&gt;\&lt;/span&gt;
-    gstreamer1.0-plugins-base &lt;span class="se"&gt;\&lt;/span&gt;
-    gstreamer1.0-plugins-good
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;-y&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libgstreamer1.0&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;gstreamer1.0-plugins-base&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;gstreamer1.0-plugins-good
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -63,8 +68,8 @@ we created earlier.&lt;/p&gt;
 &lt;p&gt;At this time, the latest kivy version is &lt;tt class="docutils literal"&gt;1.10.1&lt;/tt&gt; which requires
 cython &lt;tt class="docutils literal"&gt;0.28.2&lt;/tt&gt; to compile. We need to install cython first before we can
 install kivy.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install &lt;span class="nv"&gt;Cython&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.28.2
-pip install &lt;span class="nv"&gt;kivy&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.10.1
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Cython&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.28.2
+pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;kivy&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.10.1
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="installing-kivent"&gt;
@@ -80,8 +85,8 @@ virtualenv we created.&lt;/p&gt;
 &lt;div class="section" id="clone-the-kivent-repository"&gt;
 &lt;h3&gt;clone the kivent repository&lt;/h3&gt;
 &lt;p&gt;You can clone this from any directory.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone git@github.com:kivy/kivent.git
-&lt;span class="nb"&gt;cd&lt;/span&gt; kivent
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;git@github.com:kivy/kivent.git
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;kivent
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="install-the-kivent-core-module"&gt;
@@ -90,9 +95,9 @@ virtualenv we created.&lt;/p&gt;
 seperately. This allows you the flexibility to utilize it as little or as much
 as you want in your kivy projects.&lt;/p&gt;
 &lt;p&gt;At the heart of it is the &lt;tt class="docutils literal"&gt;kivent_core&lt;/tt&gt; module. Let's install that.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; modules/core
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/core
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;That's it!&lt;/p&gt;
 &lt;p&gt;From here on, you can import the &lt;tt class="docutils literal"&gt;kivent_core&lt;/tt&gt; module from your kivy
@@ -112,10 +117,10 @@ engine. So yay!&lt;/p&gt;
 &lt;li&gt;cymunk&lt;/li&gt;
 &lt;li&gt;kivent core&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install git+git://github.com/tito/cymunk
-&lt;span class="nb"&gt;cd&lt;/span&gt; modules/cymunk
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;git+git://github.com/tito/cymunk
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/cymunk
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="kivent-particles"&gt;
@@ -125,9 +130,9 @@ python setup.py build_ext install
 &lt;ul class="simple"&gt;
 &lt;li&gt;kivent core&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; modules/particles
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/particles
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="kivent-maps"&gt;
@@ -139,10 +144,10 @@ Essential for exploration/rpg games!&lt;/p&gt;
 &lt;li&gt;tmx&lt;/li&gt;
 &lt;li&gt;kivent core&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install tmx
-&lt;span class="nb"&gt;cd&lt;/span&gt; modules/maps
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;tmx
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/maps
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="kivent-projectiles"&gt;
@@ -155,9 +160,9 @@ anyway.&lt;/p&gt;
 &lt;li&gt;kivent cymunk&lt;/li&gt;
 &lt;li&gt;kivent particles&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; modules/projectiles
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/projectiles
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -169,67 +174,74 @@ libraries we need in building cross-platform games in Python.&lt;/p&gt;
 easier games and/or reverse engineering sample codes from the internets.&lt;/p&gt;
 &lt;p&gt;I'll try to document my practice here as well.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="python"></category><category term="kivy"></category><category term="game-development"></category></entry><entry><title>getting indefinite input feed in hackerrank</title><link href="https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html" rel="alternate"></link><published>2016-10-25T16:04:00+08:00</published><updated>2016-10-25T16:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</id><summary type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1 1 1 0 0 0
-0 1 0 0 0 0
-1 1 1 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-&lt;/pre&gt;&lt;/div&gt;
-
+</content><category term="code"></category><category term="python"></category><category term="kivy"></category><category term="game-development"></category></entry><entry><title>getting indefinite input feed in hackerrank</title><link href="https://blog.mattlebrun.com/2016/10/getting-indefinite-input-feed-in-hackerrank.html" rel="alternate"></link><published>2016-10-25T16:04:00+08:00</published><updated>2016-10-25T16:04:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-10-25:/2016/10/getting-indefinite-input-feed-in-hackerrank.html</id><summary type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0 …&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;If you have been using &lt;a href="http://www.hackerrank.com"&gt;HackerRank&lt;/a&gt; and encountered problems that accepts an indefinite amount of input from &lt;code&gt;STDIN&lt;/code&gt; like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;and wodered how to get all that in a single list for later processing, here's a code snippet:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot; your code goes here &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot; your code goes here &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
     &lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
 
-    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
         &lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
             &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
         &lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;EOFError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
             &lt;span class="k"&gt;break&lt;/span&gt;
         &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot; your code goes here &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
-    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot; your code goes here &amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
 
 &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="vm"&gt;__name__&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;__main__&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
     &lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
-&lt;p&gt;From my observation, it seems the input is coming from a file and its being streamed to &lt;code&gt;STDIN&lt;/code&gt; one line at a time.&lt;/p&gt;</content><category term="python"></category></entry><entry><title>use different git ssh key per project</title><link href="https://blog.mattlebrun.com/2016/09/use-different-git-ssh-key-per-project.html" rel="alternate"></link><published>2016-09-14T16:47:00+08:00</published><updated>2016-09-14T16:47:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-09-14:/2016/09/use-different-git-ssh-key-per-project.html</id><summary type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
-i.e. you use different keys for deployment, personal, company A …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
+&lt;p&gt;From my observation, it seems the input is coming from a file and its being streamed to &lt;code&gt;STDIN&lt;/code&gt; one line at a time.&lt;/p&gt;</content><category term="code"></category><category term="python"></category></entry><entry><title>use different git ssh key per project</title><link href="https://blog.mattlebrun.com/2016/09/use-different-git-ssh-key-per-project.html" rel="alternate"></link><published>2016-09-14T16:47:00+08:00</published><updated>2016-09-14T16:47:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2016-09-14:/2016/09/use-different-git-ssh-key-per-project.html</id><summary type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
+i.e. you use different keys for deployment, personal, company A, company B, etc.&lt;/p&gt;
+&lt;p&gt;Then you probably have wondered how to tell git which key to use to manage the
+repo.&lt;/p&gt;
+&lt;p&gt;You could use the &lt;a href="https://www.git-scm.com/docs/git-remote-ext"&gt;git-remote-ext …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you happen to be using different git accounts with they're own SSH keys;
 i.e. you use different keys for deployment, personal, company A, company B, etc.&lt;/p&gt;
 &lt;p&gt;Then you probably have wondered how to tell git which key to use to manage the
 repo.&lt;/p&gt;
 &lt;p&gt;You could use the &lt;a href="https://www.git-scm.com/docs/git-remote-ext"&gt;git-remote-ext&lt;/a&gt; utility.&lt;/p&gt;
 &lt;h4&gt;cloning new projects&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git clone &lt;span class="s2"&gt;&amp;quot;ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h4&gt;existing projects&lt;/h4&gt;
 &lt;p&gt;Edit the &lt;code&gt;.git/config&lt;/code&gt; file directly or via the terminal:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git remote remove origin
-$ git remote add origin &lt;span class="s2"&gt;&amp;quot;ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;remove&lt;span class="w"&gt; &lt;/span&gt;origin
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h4&gt;verifying new remote origin&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git remote -v
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;remote&lt;span class="w"&gt; &lt;/span&gt;-v
 
-origin ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git &lt;span class="o"&gt;(&lt;/span&gt;fetch&lt;span class="o"&gt;)&lt;/span&gt;
-origin ext::ssh -i /path/ssh/key git@github.com %S /gituser/repo.git &lt;span class="o"&gt;(&lt;/span&gt;push&lt;span class="o"&gt;)&lt;/span&gt;
+origin&lt;span class="w"&gt; &lt;/span&gt;ext::ssh&lt;span class="w"&gt; &lt;/span&gt;-i&lt;span class="w"&gt; &lt;/span&gt;/path/ssh/key&lt;span class="w"&gt; &lt;/span&gt;git@github.com&lt;span class="w"&gt; &lt;/span&gt;%S&lt;span class="w"&gt; &lt;/span&gt;/gituser/repo.git&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;fetch&lt;span class="o"&gt;)&lt;/span&gt;
+origin&lt;span class="w"&gt; &lt;/span&gt;ext::ssh&lt;span class="w"&gt; &lt;/span&gt;-i&lt;span class="w"&gt; &lt;/span&gt;/path/ssh/key&lt;span class="w"&gt; &lt;/span&gt;git@github.com&lt;span class="w"&gt; &lt;/span&gt;%S&lt;span class="w"&gt; &lt;/span&gt;/gituser/repo.git&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;push&lt;span class="o"&gt;)&lt;/span&gt;
 
-$ git fetch
-&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>the way of the pelican and the order of silly walks</title><link href="https://blog.mattlebrun.com/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html" rel="alternate"></link><published>2013-05-25T18:00:00+08:00</published><updated>2013-05-25T18:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2013-05-25:/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html</id><summary type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
+$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;fetch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="code"></category></entry><entry><title>the way of the pelican and the order of silly walks</title><link href="https://blog.mattlebrun.com/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html" rel="alternate"></link><published>2013-05-25T18:00:00+08:00</published><updated>2013-05-25T18:00:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2013-05-25:/2013/05/the-way-of-the-pelican-and-the-order-of-silly-walks.html</id><summary type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
 internets. He talked about tales of discoveries and adventures, of code and
-sorcery …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
+sorcery, of... &lt;em&gt;well you get the point&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Let me tell you his story.&lt;/p&gt;
+&lt;div class="section" id="the-art-of-blogging"&gt;
+&lt;h2&gt;the art of blogging&lt;/h2&gt;
+&lt;p&gt;For many months he poured all of his energy …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Once there was boy who wrote magnificent stories about technology and the
 internets. He talked about tales of discoveries and adventures, of code and
 sorcery, of... &lt;em&gt;well you get the point&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Let me tell you his story.&lt;/p&gt;
@@ -329,18 +341,18 @@ you're trying to create a Github page.&amp;quot;, the man warned.&lt;/p&gt;
 &lt;div class="section" id="clone-the-empty-repo-locally"&gt;
 &lt;h3&gt;clone the empty repo locally&lt;/h3&gt;
 &lt;p&gt;Clone it to your local directory&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ git clone git@github.com:&lt;span class="o"&gt;[&lt;/span&gt;username&lt;span class="o"&gt;]&lt;/span&gt;/&lt;span class="o"&gt;[&lt;/span&gt;username&lt;span class="o"&gt;]&lt;/span&gt;.github.io.git my_blog
-$ &lt;span class="nb"&gt;cd&lt;/span&gt; my_blog
-my_blog $
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;git@github.com:&lt;span class="o"&gt;[&lt;/span&gt;username&lt;span class="o"&gt;]&lt;/span&gt;/&lt;span class="o"&gt;[&lt;/span&gt;username&lt;span class="o"&gt;]&lt;/span&gt;.github.io.git&lt;span class="w"&gt; &lt;/span&gt;my_blog
+$&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;my_blog
+my_blog&lt;span class="w"&gt; &lt;/span&gt;$
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Install pelican with markdown and github import.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog $ pip install pelican markdown ghp-import
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;pelican&lt;span class="w"&gt; &lt;/span&gt;markdown&lt;span class="w"&gt; &lt;/span&gt;ghp-import
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="invoke-the-pelican-quickstart"&gt;
 &lt;h3&gt;invoke the pelican quickstart&lt;/h3&gt;
 &lt;p&gt;&amp;quot;Run this powerful spell to configure pelican;&amp;quot;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog $ pelican-quickstart
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;pelican-quickstart
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&amp;quot;You will be asked many questions. Answer them as your heart desires.&amp;quot;&lt;/p&gt;
 &lt;p&gt;&amp;quot;Here is an example with important answers highlighted.&amp;quot;&lt;/p&gt;
@@ -375,7 +387,7 @@ Done. Your new project is available at /home/juan/my_blog
 &lt;div class="section" id="create-an-article"&gt;
 &lt;h3&gt;create an article&lt;/h3&gt;
 &lt;p&gt;Create an article in restructured text or markdown.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog $ vim content/my-first-blogpost.rst
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;vim&lt;span class="w"&gt; &lt;/span&gt;content/my-first-blogpost.rst
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&amp;quot;You must have the following spell at the top of your file in order for
 Pelican to recognize your post.&amp;quot;&lt;/p&gt;
@@ -396,22 +408,22 @@ Hello world!
 &lt;div class="section" id="test-your-new-website"&gt;
 &lt;h3&gt;test your new website&lt;/h3&gt;
 &lt;p&gt;Generate the HTML files and run a development server&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog $ ./develop_server.sh start
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;./develop_server.sh&lt;span class="w"&gt; &lt;/span&gt;start
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Check it out&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog $ firefox http://localhost:8000
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;firefox&lt;span class="w"&gt; &lt;/span&gt;http://localhost:8000
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="release-your-website"&gt;
 &lt;h3&gt;release your website&lt;/h3&gt;
 &lt;p&gt;Push your changes to Github&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog $ git add -A
-my_blog $ git commit -m &lt;span class="s2"&gt;&amp;quot;The blog has begun!&amp;quot;&lt;/span&gt;
-my_blog $ git push -u origin master
-my_blog $ make github
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;add&lt;span class="w"&gt; &lt;/span&gt;-A
+my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;commit&lt;span class="w"&gt; &lt;/span&gt;-m&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;The blog has begun!&amp;quot;&lt;/span&gt;
+my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;push&lt;span class="w"&gt; &lt;/span&gt;-u&lt;span class="w"&gt; &lt;/span&gt;origin&lt;span class="w"&gt; &lt;/span&gt;master
+my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;make&lt;span class="w"&gt; &lt;/span&gt;github
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Visit your new shiny site&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog $ firefox http://&lt;span class="o"&gt;[&lt;/span&gt;username&lt;span class="o"&gt;]&lt;/span&gt;.github.io
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;my_blog&lt;span class="w"&gt; &lt;/span&gt;$&lt;span class="w"&gt; &lt;/span&gt;firefox&lt;span class="w"&gt; &lt;/span&gt;http://&lt;span class="o"&gt;[&lt;/span&gt;username&lt;span class="o"&gt;]&lt;/span&gt;.github.io
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="learning-more"&gt;
@@ -430,4 +442,4 @@ found enlightenment, he went back home happier for once more the focus of
 his blog is about creating wonderful content. The days of joy went on for
 many years... until further notice.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="python"></category></entry></feed>
+</content><category term="code"></category><category term="python"></category></entry></feed>

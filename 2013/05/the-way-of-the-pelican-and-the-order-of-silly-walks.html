@@ -8,10 +8,10 @@
 <meta name="description" content="in between code, coffee, and peanut butter.">
 
 <meta content="the way of the pelican and the order of silly walks matt lebrun" property="og:title">
-<meta content="Once there was boy who wrote magnificent stories about technology and the internets. He talked about tales of discoveries and adventures, of code and sorcery …" property="og:description">
+<meta content="Once there was boy who wrote magnificent stories about technology and the internets. He talked about tales of discoveries and adventures, of code and sorcery, of... well you get the point. Let me tell you his story. the art of blogging For many months he poured all of his energy …" property="og:description">
 
 <meta content="the way of the pelican and the order of silly walks matt lebrun" property="twitter:title">
-<meta content="Once there was boy who wrote magnificent stories about technology and the internets. He talked about tales of discoveries and adventures, of code and sorcery …" property="twitter:description">
+<meta content="Once there was boy who wrote magnificent stories about technology and the internets. He talked about tales of discoveries and adventures, of code and sorcery..." property="twitter:description">
 
 <link rel="icon" type="image/ico" href="https://blog.mattlebrun.com/theme/img/favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="https://blog.mattlebrun.com/theme/img/icon.svg">
@@ -153,18 +153,18 @@ you're trying to create a Github page.&quot;, the man warned.</p>
 <div class="section" id="clone-the-empty-repo-locally">
 <h3>clone the empty repo locally</h3>
 <p>Clone it to your local directory</p>
-<div class="highlight"><pre><span></span>$ git clone git@github.com:<span class="o">[</span>username<span class="o">]</span>/<span class="o">[</span>username<span class="o">]</span>.github.io.git my_blog
-$ <span class="nb">cd</span> my_blog
-my_blog $
+<div class="highlight"><pre><span></span>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:<span class="o">[</span>username<span class="o">]</span>/<span class="o">[</span>username<span class="o">]</span>.github.io.git<span class="w"> </span>my_blog
+$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>my_blog
+my_blog<span class="w"> </span>$
 </pre></div>
 <p>Install pelican with markdown and github import.</p>
-<div class="highlight"><pre><span></span>my_blog $ pip install pelican markdown ghp-import
+<div class="highlight"><pre><span></span>my_blog<span class="w"> </span>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>pelican<span class="w"> </span>markdown<span class="w"> </span>ghp-import
 </pre></div>
 </div>
 <div class="section" id="invoke-the-pelican-quickstart">
 <h3>invoke the pelican quickstart</h3>
 <p>&quot;Run this powerful spell to configure pelican;&quot;</p>
-<div class="highlight"><pre><span></span>my_blog $ pelican-quickstart
+<div class="highlight"><pre><span></span>my_blog<span class="w"> </span>$<span class="w"> </span>pelican-quickstart
 </pre></div>
 <p>&quot;You will be asked many questions. Answer them as your heart desires.&quot;</p>
 <p>&quot;Here is an example with important answers highlighted.&quot;</p>
@@ -199,7 +199,7 @@ Done. Your new project is available at /home/juan/my_blog
 <div class="section" id="create-an-article">
 <h3>create an article</h3>
 <p>Create an article in restructured text or markdown.</p>
-<div class="highlight"><pre><span></span>my_blog $ vim content/my-first-blogpost.rst
+<div class="highlight"><pre><span></span>my_blog<span class="w"> </span>$<span class="w"> </span>vim<span class="w"> </span>content/my-first-blogpost.rst
 </pre></div>
 <p>&quot;You must have the following spell at the top of your file in order for
 Pelican to recognize your post.&quot;</p>
@@ -220,22 +220,22 @@ Hello world!
 <div class="section" id="test-your-new-website">
 <h3>test your new website</h3>
 <p>Generate the HTML files and run a development server</p>
-<div class="highlight"><pre><span></span>my_blog $ ./develop_server.sh start
+<div class="highlight"><pre><span></span>my_blog<span class="w"> </span>$<span class="w"> </span>./develop_server.sh<span class="w"> </span>start
 </pre></div>
 <p>Check it out</p>
-<div class="highlight"><pre><span></span>my_blog $ firefox http://localhost:8000
+<div class="highlight"><pre><span></span>my_blog<span class="w"> </span>$<span class="w"> </span>firefox<span class="w"> </span>http://localhost:8000
 </pre></div>
 </div>
 <div class="section" id="release-your-website">
 <h3>release your website</h3>
 <p>Push your changes to Github</p>
-<div class="highlight"><pre><span></span>my_blog $ git add -A
-my_blog $ git commit -m <span class="s2">&quot;The blog has begun!&quot;</span>
-my_blog $ git push -u origin master
-my_blog $ make github
+<div class="highlight"><pre><span></span>my_blog<span class="w"> </span>$<span class="w"> </span>git<span class="w"> </span>add<span class="w"> </span>-A
+my_blog<span class="w"> </span>$<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;The blog has begun!&quot;</span>
+my_blog<span class="w"> </span>$<span class="w"> </span>git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>master
+my_blog<span class="w"> </span>$<span class="w"> </span>make<span class="w"> </span>github
 </pre></div>
 <p>Visit your new shiny site</p>
-<div class="highlight"><pre><span></span>my_blog $ firefox http://<span class="o">[</span>username<span class="o">]</span>.github.io
+<div class="highlight"><pre><span></span>my_blog<span class="w"> </span>$<span class="w"> </span>firefox<span class="w"> </span>http://<span class="o">[</span>username<span class="o">]</span>.github.io
 </pre></div>
 </div>
 <div class="section" id="learning-more">
@@ -283,6 +283,8 @@ many years... until further notice.</p>
             <a class="badge badge-light"
                href="https://twitter.com/cr8ivecodesmith">twitter</a>
             <a class="badge badge-light"
+               href="https://mtd.pythonasia.org/@matt">mastodon</a>
+            <a class="badge badge-light"
                href="https://ph.linkedin.com/in/cr8ivecodesmith">linkedin</a>
 
     </div>
@@ -291,7 +293,7 @@ many years... until further notice.</p>
     <div class="text-center">
         <small class="text-muted">
             <span class="copy-left">&copy;</span>
-2021 matt lebrun
+2023 matt lebrun
  - in between code, coffee, and peanut butter.        </small>
     </div>
 </div>    </div>

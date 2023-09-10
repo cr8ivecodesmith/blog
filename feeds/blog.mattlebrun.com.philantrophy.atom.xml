@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun - philantrophy</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.philantrophy.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2018-11-17T18:14:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>on principles and thinking clearly</title><link href="https://blog.mattlebrun.com/2018/11/on-principles-and-thinking-clearly.html" rel="alternate"></link><published>2018-11-17T18:14:00+08:00</published><updated>2018-11-17T18:14:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2018-11-17:/2018/11/on-principles-and-thinking-clearly.html</id><summary type="html">&lt;p&gt;I chanced upon an article from thepolymathproject.com about
 &lt;a class="reference external" href="https://thepolymathproject.com/a-few-principles-for-thinking-clearly/"&gt;&amp;quot;A few Principles in Thinking Clearly&amp;quot;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I learned about Czech-Canadian polymath, Vaclav Smil and his perspective …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I chanced upon an article from thepolymathproject.com about
+&lt;p&gt;I learned about Czech-Canadian polymath, Vaclav Smil and his perspective on
+thinking clearly. He's apparently widely read by none other that Bill Gates
+himself. Gates even says, &lt;em&gt;&amp;quot;I learn more by reading Vaclav Smith that …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;I chanced upon an article from thepolymathproject.com about
 &lt;a class="reference external" href="https://thepolymathproject.com/a-few-principles-for-thinking-clearly/"&gt;&amp;quot;A few Principles in Thinking Clearly&amp;quot;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I learned about Czech-Canadian polymath, Vaclav Smil and his perspective on
 thinking clearly. He's apparently widely read by none other that Bill Gates
@@ -32,4 +34,4 @@ self-censor because you’re afraid of &lt;strong&gt;(a)&lt;/strong&gt; financia
 &lt;li&gt;Skin in the game&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</content><category term="principles"></category><category term="pythonph"></category><category term="philantrophy"></category></entry></feed>
+</content><category term="thoughts"></category><category term="principles"></category><category term="pythonph"></category><category term="philantrophy"></category></entry></feed>

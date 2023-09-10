@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun - community</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.community.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2018-03-02T11:50:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>pycon experiments: getting people talking</title><link href="https://blog.mattlebrun.com/2018/03/pycon-experiments-getting-people-talking.html" rel="alternate"></link><published>2018-03-02T11:50:00+08:00</published><updated>2018-03-02T11:50:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2018-03-02:/2018/03/pycon-experiments-getting-people-talking.html</id><summary type="html">&lt;p&gt;A few months before &lt;a class="reference external" href="https://pycon.python.ph"&gt;PyConPH 2018&lt;/a&gt;, I chanced upon Eric Holscher's blog post
 on &lt;strong&gt;Breaking Cliques at Events&lt;/strong&gt;, specifically in
-&lt;a class="reference external" href="http://ericholscher.com/blog/2017/dec/2/breaking-cliques-at-events/#difficulty-meeting-new-people"&gt;difficulty in meeting new people …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few months before &lt;a class="reference external" href="https://pycon.python.ph"&gt;PyConPH 2018&lt;/a&gt;, I chanced upon Eric Holscher's blog post
+&lt;a class="reference external" href="http://ericholscher.com/blog/2017/dec/2/breaking-cliques-at-events/#difficulty-meeting-new-people"&gt;difficulty in meeting new people&lt;/a&gt;. This striked me as a very important point
+as I personally relate to the idea that as an introvert, I find it difficult
+talking to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few months before &lt;a class="reference external" href="https://pycon.python.ph"&gt;PyConPH 2018&lt;/a&gt;, I chanced upon Eric Holscher's blog post
 on &lt;strong&gt;Breaking Cliques at Events&lt;/strong&gt;, specifically in
 &lt;a class="reference external" href="http://ericholscher.com/blog/2017/dec/2/breaking-cliques-at-events/#difficulty-meeting-new-people"&gt;difficulty in meeting new people&lt;/a&gt;. This striked me as a very important point
 as I personally relate to the idea that as an introvert, I find it difficult
@@ -29,4 +31,4 @@ people interested in the same topic.&lt;/p&gt;
 encourage them to find people with a different design to trade with.&lt;/p&gt;
 &lt;p&gt;Do you have other tips on making people interact more during conferences? I'd
 love to hear your thoughts and stories. Talk to me on &lt;a class="reference external" href="https://twitter.com/cr8ivecodesmith/status/969460040288559105"&gt;twitter&lt;/a&gt;.&lt;/p&gt;
-</content><category term="pycon"></category><category term="pyconph"></category></entry></feed>
+</content><category term="community"></category><category term="pycon"></category><category term="pyconph"></category></entry></feed>

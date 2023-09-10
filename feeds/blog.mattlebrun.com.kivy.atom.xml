@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>matt lebrun - kivy</title><link href="https://blog.mattlebrun.com/" rel="alternate"></link><link href="https://blog.mattlebrun.com/feeds/blog.mattlebrun.com.kivy.atom.xml" rel="self"></link><id>https://blog.mattlebrun.com/</id><updated>2019-03-29T12:57:00+08:00</updated><subtitle>in between code, coffee, and peanut butter.</subtitle><entry><title>kivy development environment setup</title><link href="https://blog.mattlebrun.com/2019/03/kivy-development-environment-setup.html" rel="alternate"></link><published>2019-03-29T12:57:00+08:00</published><updated>2019-03-29T12:57:00+08:00</updated><author><name>Matt Lebrun</name></author><id>tag:blog.mattlebrun.com,2019-03-29:/2019/03/kivy-development-environment-setup.html</id><summary type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
 it.&lt;/p&gt;
-&lt;p&gt;With any development endeavor, the environment needs some setting …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
+&lt;p&gt;With any development endeavor, the environment needs some setting up. It's
+really been a while since I've used Kivy so I'm documenting my process with
+this post.&lt;/p&gt;
+&lt;div class="section" id="pre-requisites"&gt;
+&lt;h2&gt;pre-requisites&lt;/h2&gt;
+&lt;p&gt;My current machine has the ff …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I've been itching to get back to (re)learning Kivy again by creating games with
 it.&lt;/p&gt;
 &lt;p&gt;With any development endeavor, the environment needs some setting up. It's
 really been a while since I've used Kivy so I'm documenting my process with
@@ -18,9 +23,9 @@ this post.&lt;/p&gt;
 &lt;h2&gt;setting up the virtualenv&lt;/h2&gt;
 &lt;p&gt;We will install everything under a pyenv virtualenv based off of Python 3.6.7.&lt;/p&gt;
 &lt;p&gt;We'll then create a virtualenv for the kivy version we will be using.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pyenv install &lt;span class="m"&gt;3&lt;/span&gt;.6.7
-pyenv virtualenv &lt;span class="m"&gt;3&lt;/span&gt;.6.7 kivy3-1.10.1
-pyenv &lt;span class="nb"&gt;local&lt;/span&gt; kivy3-1.10.1
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pyenv&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.6.7
+pyenv&lt;span class="w"&gt; &lt;/span&gt;virtualenv&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;3&lt;/span&gt;.6.7&lt;span class="w"&gt; &lt;/span&gt;kivy3-1.10.1
+pyenv&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nb"&gt;local&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;kivy3-1.10.1
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="install-os-packages-required-by-kivy"&gt;
@@ -29,30 +34,30 @@ pyenv &lt;span class="nb"&gt;local&lt;/span&gt; kivy3-1.10.1
 &lt;a class="reference external" href="https://kivy.org/doc/stable/installation/installation-linux.html#dependencies-with-sdl2"&gt;official docs&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="install-necessary-system-packages"&gt;
 &lt;h3&gt;install necessary system packages&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install -y &lt;span class="se"&gt;\&lt;/span&gt;
-    python3-pip &lt;span class="se"&gt;\&lt;/span&gt;
-    build-essential &lt;span class="se"&gt;\&lt;/span&gt;
-    git &lt;span class="se"&gt;\&lt;/span&gt;
-    python3 &lt;span class="se"&gt;\&lt;/span&gt;
-    python3-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    ffmpeg &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-image-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-mixer-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libsdl2-ttf-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libportmidi-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libswscale-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libavformat-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    libavcodec-dev &lt;span class="se"&gt;\&lt;/span&gt;
-    zlib1g-dev
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;-y&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;python3-pip&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;build-essential&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;python3&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;python3-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;ffmpeg&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-image-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-mixer-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libsdl2-ttf-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libportmidi-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libswscale-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libavformat-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libavcodec-dev&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;zlib1g-dev
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="install-gstreamer-for-audio-video-optional"&gt;
 &lt;h3&gt;install gstreamer for audio, video (optional)&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install -y &lt;span class="se"&gt;\&lt;/span&gt;
-    libgstreamer1.0 &lt;span class="se"&gt;\&lt;/span&gt;
-    gstreamer1.0-plugins-base &lt;span class="se"&gt;\&lt;/span&gt;
-    gstreamer1.0-plugins-good
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo&lt;span class="w"&gt; &lt;/span&gt;apt-get&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;-y&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;libgstreamer1.0&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;gstreamer1.0-plugins-base&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="se"&gt;\&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;gstreamer1.0-plugins-good
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -63,8 +68,8 @@ we created earlier.&lt;/p&gt;
 &lt;p&gt;At this time, the latest kivy version is &lt;tt class="docutils literal"&gt;1.10.1&lt;/tt&gt; which requires
 cython &lt;tt class="docutils literal"&gt;0.28.2&lt;/tt&gt; to compile. We need to install cython first before we can
 install kivy.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install &lt;span class="nv"&gt;Cython&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.28.2
-pip install &lt;span class="nv"&gt;kivy&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.10.1
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;Cython&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;.28.2
+pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nv"&gt;kivy&lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;.10.1
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="installing-kivent"&gt;
@@ -80,8 +85,8 @@ virtualenv we created.&lt;/p&gt;
 &lt;div class="section" id="clone-the-kivent-repository"&gt;
 &lt;h3&gt;clone the kivent repository&lt;/h3&gt;
 &lt;p&gt;You can clone this from any directory.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone git@github.com:kivy/kivent.git
-&lt;span class="nb"&gt;cd&lt;/span&gt; kivent
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git&lt;span class="w"&gt; &lt;/span&gt;clone&lt;span class="w"&gt; &lt;/span&gt;git@github.com:kivy/kivent.git
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;kivent
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="install-the-kivent-core-module"&gt;
@@ -90,9 +95,9 @@ virtualenv we created.&lt;/p&gt;
 seperately. This allows you the flexibility to utilize it as little or as much
 as you want in your kivy projects.&lt;/p&gt;
 &lt;p&gt;At the heart of it is the &lt;tt class="docutils literal"&gt;kivent_core&lt;/tt&gt; module. Let's install that.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; modules/core
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/core
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;That's it!&lt;/p&gt;
 &lt;p&gt;From here on, you can import the &lt;tt class="docutils literal"&gt;kivent_core&lt;/tt&gt; module from your kivy
@@ -112,10 +117,10 @@ engine. So yay!&lt;/p&gt;
 &lt;li&gt;cymunk&lt;/li&gt;
 &lt;li&gt;kivent core&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install git+git://github.com/tito/cymunk
-&lt;span class="nb"&gt;cd&lt;/span&gt; modules/cymunk
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;git+git://github.com/tito/cymunk
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/cymunk
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="kivent-particles"&gt;
@@ -125,9 +130,9 @@ python setup.py build_ext install
 &lt;ul class="simple"&gt;
 &lt;li&gt;kivent core&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; modules/particles
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/particles
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="kivent-maps"&gt;
@@ -139,10 +144,10 @@ Essential for exploration/rpg games!&lt;/p&gt;
 &lt;li&gt;tmx&lt;/li&gt;
 &lt;li&gt;kivent core&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install tmx
-&lt;span class="nb"&gt;cd&lt;/span&gt; modules/maps
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip&lt;span class="w"&gt; &lt;/span&gt;install&lt;span class="w"&gt; &lt;/span&gt;tmx
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/maps
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="kivent-projectiles"&gt;
@@ -155,9 +160,9 @@ anyway.&lt;/p&gt;
 &lt;li&gt;kivent cymunk&lt;/li&gt;
 &lt;li&gt;kivent particles&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; modules/projectiles
-python setup.py build_ext install
-&lt;span class="nb"&gt;cd&lt;/span&gt; ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;modules/projectiles
+python&lt;span class="w"&gt; &lt;/span&gt;setup.py&lt;span class="w"&gt; &lt;/span&gt;build_ext&lt;span class="w"&gt; &lt;/span&gt;install
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;..
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -169,4 +174,4 @@ libraries we need in building cross-platform games in Python.&lt;/p&gt;
 easier games and/or reverse engineering sample codes from the internets.&lt;/p&gt;
 &lt;p&gt;I'll try to document my practice here as well.&lt;/p&gt;
 &lt;/div&gt;
-</content><category term="python"></category><category term="kivy"></category><category term="game-development"></category></entry></feed>
+</content><category term="code"></category><category term="python"></category><category term="kivy"></category><category term="game-development"></category></entry></feed>
