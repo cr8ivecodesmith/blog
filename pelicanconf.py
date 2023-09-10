@@ -105,6 +105,7 @@ LINKS = (
 SOCIAL = (
     ('github', 'https://github.com/cr8ivecodesmith'),
     ('twitter', 'https://twitter.com/cr8ivecodesmith'),
+    ('mastodon', 'https://mtd.pythonasia.org/@matt'),
     # ('facebook', 'https://www.facebook.com/cr8ivecodesmith'),
     # ('instagram', 'https://instagram.com/cr8ivecodesmith'),
     ('linkedin', 'https://ph.linkedin.com/in/cr8ivecodesmith'),
@@ -131,6 +132,6 @@ DEFAULT_METADATA = {
 # Theme Settings
 THEME = 'zenmatt'
 PYGMENTS_STYLE = 'default'
-COPYRIGHT_YEAR = '2021'
+COPYRIGHT_YEAR = '2023'
 COPYLEFT = True
 # GOOGLE_ANALYTICS = None

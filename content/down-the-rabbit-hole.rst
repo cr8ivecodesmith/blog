@@ -20,18 +20,11 @@ He sounds just like me.
 Adam Savage:
 
 - He is a curious person with many pursuits.
-
-  - As an effect, he never runs out of things to do or make.
-
+- As an effect, he never runs out of things to do or make.
 - A generalist with a knowledge on a broad range of topics, but a master of none.
-
 - Considers himself a maker of physical things.
-
-- Was encouraged and supported by his parents to explore and pursue his curious
-nature.
-
-- He never delves deep enough on a subject or skill to the point of mastery,
-  only to a point of reasonable proficiency: "Above mediocore" or "Mediocore+"
+- Was encouraged and supported by his parents to explore and pursue his curious nature.
+- He never delves deep enough on a subject or skill to the point of mastery, only to a point of reasonable proficiency: "Above mediocore" or "Mediocore+"
 
 
 Might be the reason why I've never had that much motivation to finish a lot

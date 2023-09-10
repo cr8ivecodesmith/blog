@@ -39,7 +39,7 @@ $ . v/bin/activate
 4) Run the dev server
 
 ```
-(v) $ make html; make serve
+(v) $ make html; PORT=8000 make serve-global
 ```
 
 5) Open your [browser](http://localhost:8000)
