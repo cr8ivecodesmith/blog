@@ -4,7 +4,7 @@ import os
 BASEDIR = os.path.dirname(os.path.abspath(__file__))
 
 AUTHOR = 'Matt Lebrun'
-SITENAME = 'matt lebrun'
+SITENAME = 'Matt Lebrun'
 SITESUBTITLE = 'in between code, coffee, and peanut butter.'
 SITEURL = 'http://localhost:8000'
 SUMMARY_MAX_LENGTH = 50  # in words
