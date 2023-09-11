@@ -14,7 +14,7 @@ Mickey and I had the privilege to attend and deliver a talk for [**PyCon TW last
 
 This was our second international PyCon we've attended in person and our first time speaking in person internationally. We were very nervous but *thankfully we felt like the talk went better than we anticipated*. 
 
-The talk title is **"One Does Not Simply Create a Lasting Tech Community"**. We dived into the ten-year journey of PythonPH, our strategies for organizing, and our approach to leadership development. We also enjoyed answering the questions from the audience post-talk, allowing us to reflect on our journey and challenges even more.
+The talk title is [**"One Does Not Simply Create a Lasting Tech Community"**](https://tw.pycon.org/2023/en-us/conference/talk/283). We dived into the ten-year journey of PythonPH, our strategies for organizing, and our approach to leadership development. We also enjoyed answering the questions from the audience post-talk, allowing us to reflect on our journey and challenges even more.
 
 Outside of our session, I've connected with fellow attendees, leading me to reflect more about my past. Having been in the thick of balancing career, community work, and personal life, these conversations served as both reminders and lessons.
 
