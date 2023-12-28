@@ -31,7 +31,7 @@ While we do feel like every year we are growing and moving towards the direction
 - Objectives are **ambitious and aspirational** end-states directed by our values and vision.
     - What do we want to become?
     - Where do we want to be?
-- Key Results are **not goals or action items** like "Do X amount of events". They are measurable leading indicators like "As measured by X membership signups".
+- Key Results are **not goals or action items** like "Do X amount of events". They are measurable leading indicators like "As measured by the number of membership signups".
     - How do we know we are getting there?
 - Measurement is **not about ticking boxes** in your action items. Its relative to the outcomes of your Key Results.
     - < 0.6: We need to correct course.
