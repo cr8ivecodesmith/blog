@@ -10,9 +10,12 @@ header_image: ../../static/images/reflective-okr-journey-header.png
 header_image_alt: Couple doing their annual planning. (photo AI generated)
 
 
+## OKRs do not need to suck
+
 I now appreciate how OKRs improved the visibility of how our actions aligns with our values in our annual couple planning process.
 
-**Why it clicked for us:**
+
+## Why it clicked for us
 
 Every year Mickey and I reflect upon the things we've accomplished in all key areas of our lives. 
 
@@ -23,7 +26,7 @@ While we do feel like every year we are growing and moving towards the direction
 - ⚖️Measure: A 0-1 scale relative to the indicators.
 - 🔎Review: Regular reflections instead of just yearly.
 
-**Diving deeper:** 
+## Diving deeper
 
 - Objectives are **ambitious and aspirational** end-states directed by our values and vision.
     - What do we want to become?
@@ -40,10 +43,11 @@ While we do feel like every year we are growing and moving towards the direction
     - What resources do I need?
     - Is this still even relevant?
 
-**Taking it further:**
+## Taking it further
 
 Now that it clicked, we want to apply this to PythonPH and our other endeavors too.
 
-**Further reading:** 
+
+## Further reading
 
 - [OKRs: The Ultimate Guide](https://web.archive.org/web/20231202011537/https://www.atlassian.com/agile/agile-at-scale/okr)
