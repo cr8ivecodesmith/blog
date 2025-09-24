@@ -6,7 +6,7 @@ BASEDIR = os.path.dirname(os.path.abspath(__file__))
 AUTHOR = 'Matt Lebrun'
 SITENAME = 'Matt Lebrun'
 SITESUBTITLE = 'in between code, coffee, and peanut butter.'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:8888'
 SUMMARY_MAX_LENGTH = 50  # in words
 
 TIMEZONE = 'Asia/Manila'
@@ -132,6 +132,6 @@ DEFAULT_METADATA = {
 # Theme Settings
 THEME = 'zenmatt'
 PYGMENTS_STYLE = 'default'
-COPYRIGHT_YEAR = '2023'
-COPYLEFT = True
+COPYRIGHT_YEAR = '2025'
+COPYLEFT = False
 # GOOGLE_ANALYTICS = None
