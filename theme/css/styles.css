@@ -1,14 +1,23 @@
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .main-container {
-    max-width: 65%;
+  width: 100%;
+  max-width: 65%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    max-width: 100%;
+  }
 }
 
 .archive-filter {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 #article {
@@ -30,50 +39,50 @@ body {
 }
 
 .zenm-media-max {
-    max-width: 80%!important;
+  max-width: 80%!important;
 }
 
 .copy-left {
-    display: inline-block;
-    text-align: right;
-    margin: 0px;
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: “FlipH”;
+  display: inline-block;
+  text-align: right;
+  margin: 0px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: “FlipH”;
 }
 
 .section-top, .section-top-md {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .section-top-sm {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .section-top-lg {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .section-bot, .section-bot-md {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .section-bot-sm {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .section-bot-lg {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .main-header, .main-header a {
-    font-size: 1.3em;
-    color: #333!important;
+  font-size: 1.3em;
+  color: #333!important;
 }
 
 .archive-link, .archive-link a {
-    color: #333!important;
+  color: #333!important;
 }
