@@ -10,12 +10,6 @@ body {
   padding: 0 1rem;
 }
 
-@media (max-width: 768px) {
-  .main-container {
-    max-width: 100%;
-  }
-}
-
 .archive-filter {
   overflow-x: auto;
 }
@@ -39,7 +33,10 @@ body {
 }
 
 .zenm-media-max {
-  max-width: 80%!important;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .copy-left {
@@ -86,3 +83,10 @@ body {
 .archive-link, .archive-link a {
   color: #333!important;
 }
+
+@media (max-width: 768px) {
+  .main-container, .zenm-media-max {
+    max-width: 100%;
+  }
+}
+
